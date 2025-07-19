@@ -1,4 +1,4 @@
-# Pix's Necronomicon of Software
+# Pix's Necronomicon of Software and Tools
 
 This is inspired by the [awesome](https://github.com/sindresorhus/awesome) repos that have lead me to cool tools, so this is just my take on that, a list of awesome software I've found while passing through cyberspace
 
@@ -7,6 +7,7 @@ This list will likely have a cyber security lean just cause of my line of work, 
 Please send me cool tools to try! I'm always looking for more new awesome stuff to try!
 
 ## Indexing
+  *A list of everything!*
 
 - [Colourschemes](#colourschemes)
 - [GUI Programs](#gui-programs)
@@ -19,6 +20,10 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [File Swiss Army Knives](#file-swiss-army-knives)
 - [Debugging Tools](#debugging-tools)
 - [Version Control](#version-control)
+- [AI Backed Tooling](#ai-backed-tooling)
+- [Database Tooling](#database-tooling)
+- [Programming Languages](#programming-languages)
+- [Cool Development Libraries](#cool-development-libraries)
 
 ## Colorschemes
 
@@ -140,12 +145,96 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
 ## Version Control
 
-- [lazygit](https://github.com/jesseduffield/lazygit) - A fantastic TUI for git written in Go
-- [jujutsu](https://github.com/jj-vcs/jj) - A git compatible VCS written in Rust with a new way of handling version control
-- [gitui](https://github.com/gitui-org/gitui) - Fast terminal-ui for git written in Rust, a less pretty `lazygit`
-- [svn](https://subversion.apache.org/) - Mercurial based VCS
+  *Do you like saving your work? Reverting your changes? Keeping a history?!*
+
+- [Git Kraken](https://www.gitkraken.com/) - An alternative for `sublime merge` that works well on Windows
 - [gh](https://cli.github.com/) - Github CLI, makes dealing with git repos on github braindead
 - [git-delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for `git`
+- [gitui](https://github.com/gitui-org/gitui) - Fast terminal-ui for git written in Rust, a less pretty `lazygit`
 - [icdiff](https://github.com/jeffkaufman/icdiff) - An improved coloured version of `diff` written in Python
+- [jujutsu](https://github.com/jj-vcs/jj) - A git compatible VCS written in Rust with a new way of handling version control
+- [lazygit](https://github.com/jesseduffield/lazygit) - A fantastic TUI for git written in Go
 - [Sublime Merge](https://www.sublimemerge.com/) - A fantastic, easy to parse git GUI for Sublime Text
-- [Git Kraken](https://www.gitkraken.com/) - An alternative for `sublime merge` that works well on Windows
+- [svn](https://subversion.apache.org/) - Mercurial based VCS
+
+## AI Backed Tooling
+
+  *AI powered tools I've found and tried*
+
+- [smartcat](https://github.com/efugier/smartcat) - 'Putting the brain behind `cat`' integrates an LLM with cat 
+- [tgpt](https://github.com/aandrew-me/tgpt) - AI chatbots without needing API keys
+- [gemini-cli](https://github.com/google-gemini/gemini-cli) - Open source AI agent direct in your terminal, with access to everything.. 
+- [Warp](https://www.warp.dev/) - This used to be a temrinal, nowadays its like some llm agent dev env
+
+## Database Tooling
+
+  *Basic database tools and databases, honestly I suck at db's*
+
+- [gobang](https://github.com/TaKO8Ki/gobang) - A cross-platform TUI database management tool written in Rust
+- [manticore](https://github.com/manticoresearch/manticore) - A fast, in-memory, vector search engine with SQL-like query syntax
+- [sqlite](https://www.sqlite.org/index.html) - Everyone's favourite flat file database works with everything
+- [surealdb](https://github.com/surrealdb/surrealdb) - Scalable, distributed, collaborative document-graph database
+
+## Programming Languages
+
+  *Various programming languages I've worked in*
+
+- [bash](#) - Default shell scripting language almost everywhere
+- [c#](https://dotnet.microsoft.com/en-us/languages/csharp) - The Microsoft programming language
+- [c++](#) - Overengineered C
+- [c](#) - Do I really need to explain C?
+- [fish](https://fishshell.com/) - Fish scripting language, not POSIX compliant but feels sane
+- [haskell](https://www.haskell.org/) - Because everyone needs to try functional programming at least once
+- [lua](https://www.lua.org/) - A powerful, fast, lightweight, embeddable scripting language
+- [odin](https://github.com/odin-lang/Odin) - The C alternative for the joy of programming
+- [perl](https://www.perl.org/) - Golf the heck out of your code
+- [python](https://www.python.org/) - A general purpose scripting language
+- [swift](https://www.swift.org/) - The Apple programming language
+- [zig](https://github.com/ziglang/zig) - General purpose systems programming language
+
+## Cool Development Libraries 
+
+  *Mostly focused around C or Zig, cool libraries to work with and extend your code*
+
+- [coreutils](https://github.com/coreutils/coreutils) - The GNU core utilities
+- [hiredis](https://github.com/redis/hiredis) - A minimalistic C client for Redis
+- [jemalloc](https://github.com/jemalloc/jemalloc) - A general purpose malloc implementation
+- [libconfig](https://github.com/hyperrealm/libconfig) - A cross-platform library for parsing structured configuration files
+- [libevent](https://github.com/libevent/libevent) - A cross-platform event notification library
+- [libuv](https://github.com/libuv/libuv) - A cross-platform asynchronous I/O library
+- [mimalloc](https://github.com/microsoft/mimalloc) - A compact general purpose allocator with excellent performance
+- [pix.h](#) - My very own header only library that brings along all sorts of useful things!
+- [stb](https://github.com/nothings/stb) - A collection of header only libraries 
+- [xxhash](https://github.com/Cyan4973/xxHash) - A blazingly fast non-cryptographic hash algorithm
+
+## Build Systems
+
+  *Do you like to compile your code? But you don't want the hassle of typing out long compile commands every time?*
+
+- [cmake](https://cmake.org/) - A cross-platform build system generator
+- [make](https://www.gnu.org/software/make/) - Precusor to cmake! Still in use today cause it works!
+- [meson](https://mesonbuild.com/) - A build system using ninja as a backend with a python like syntax
+- [ninja](https://ninja-build.org/) - Build system with a focus on speed and parallelism
+- [remake](https://github.com/pix-xip/remake) - I make my own build system, written in `C`, configured via `lua`
+- [zig](https://ziglang.org/) - Due to its inbuilt C compiler etc, its a shocking good build system
+
+## CLI Network Tools
+
+- [netcat](https://netcat.sourceforge.net/) - The network swiss army knife
+- [socat](https://www.dest-unreach.org/socat/) - Another swiss army knife for networking!
+- [ssh-para](https://github.com/joknarf/ssh-para) - Parallel ssh jobs manager with interactive CLI
+- [tcpdump](https://www.tcpdump.org/) - A way to dump network traffic straight off the interface
+- [trippy](https://github.com/fujiapple852/trippy) - Network diagnostic tool with TUI output
+- [sntop](https://sntop.sourceforge.net/) - A simple network top
+- [bmon](https://github.com/tgraf/bmon) - Bandwidth monitor and rate estimator for your terminal
+- [cidr](https://github.com/bschaatsbergen/cidr) - Network tool for subnet calculation and CIDR explanation
+- [bandwich](https://github.com/imsnif/bandwhich) - Terminal bandwidth utilization tool
+- [dog](https://github.com/ogham/dog) - A command-line DNS client
+- [rustscan](https://github.com/bee-san/RustScan) - A 'modern' port scanner replacement for `nmap`
+- [zerotier-one](https://www.zerotier.com/) - A mesh networking protocol that lets you connect devices together without the hassle of setting up a VPN, it has a free tier and a self hosted!
+- [unbound](https://github.com/NLnetLabs/unbound) - A validating, recursive, caching DNS resolver
+- [doggo](https://github.com/mr-karan/doggo) - A modern DNS client like `dig` written in Go
+- [stu](https://github.com/lusingander/stu) - A TUI explorer for Amazon S3 buckets
+- [updog](https://github.com/Owloops/updo) - Uptime monitoring CLI tool
+- [havn](https://github.com/mrjackwills/havn) - A configurable port scanner with decent default options
+- [tufw](https://github.com/peltho/tufw) - A TUI for `ufw`
