@@ -1,4 +1,4 @@
-# Pix's Necronomicon of Software
+# Pix's Necronomicon of Software and Tools
 
 This is inspired by the [awesome](https://github.com/sindresorhus/awesome) repos that have lead me to cool tools, so this is just my take on that, a list of awesome software I've found while passing through cyberspace
 
@@ -8,1242 +8,450 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
 ## Indexing
 
-- [Colorschemes](#my-favourite-colour-schemes)
-- [GUI](#gui-stuff)
+  *A list of everything!*
+
+- [Colourschemes](#colourschemes)
+- [Window Managers && Desktop Environments](#window-managers--desktop-environments)
+- [GUI Programs](#gui-programs)
 - [Fonts](#fonts)
-- [Window Managers](#window-managers)
+- [Shells](#shells)
+- [Package Managers](#package-managers)
+- [Markdown Tools](#markdown-tools)
+- [Editors](#editors)
+- [Terminal Emulators](#terminal-emulators)
+- [File Swiss Army Knives](#file-swiss-army-knives)
+- [Debugging Tools](#debugging-tools)
+- [Version Control](#version-control)
+- [AI Backed Tooling](#ai-backed-tooling)
+- [Database Tooling](#database-tooling)
+- [Programming Languages](#programming-languages)
+- [Cool Development Libraries](#cool-development-libraries)
+- [Build Systems](#build-systems)
+- [Command Line Tools!](#command-line-tools)
+  - [ls replacements](#ls-replacements)
+  - [cd replacements](#cd-replacements)
+  - [Linux Ng Tools - Replacements for common linux coreutils](#linux-ng-tools---replacements-for-common-linux-coreutils)
+  - [CLI Network Tools](#cli-network-tools)
+  - [Compression Tools](#compression-tools)
+  - [Terminal File Managers](#terminal-file-managers)
+  - [CLI Data Manipulation](#cli-data-manipulation)
+  - [Other CLI Tools](#other-cli-tools) - The List of Everything not in the above categories
+  - [Javascript Ecosystem](#javascript-ecosystem)
+
+
+## Colorschemes
+
+  *Because its important for things to look pretty if you have to stare at them for awhile*
+
+- [Umbral](https://github.com/pix-xip/umbral.nvim) - Pix's colourscheme for Neovim and more!
+- [catppuccin](https://github.com/catppuccin/catppuccin) - A beautiful pastel theme for your terminal
+- [tokyonight](https://github.com/folke/tokyonight.nvim) - A beautiful theme for Neovim
+- [Shadotheme](https://github.com/Shadorain/shadotheme) - A fantastic pink and purple theme!
+
+## Window Managers && Desktop Environments
+
+  *Unless you wanna interact with a black screen and a basic terminal, this should get you going..*
+
+- [Aerospace](https://github.com/nikitabobko/AeroSpace) - An i3-like tiling winodw manager for macOS
+- [Hyprland](https://github.com/hyprwm/Hyprland) - An independent, highly customizable dynamic tiling Wayland compositor
+- [Niri](https://github.com/YaLTeR/niri) - A scrolling, tiled Wayland compositor
+- [Sway](https://github.com/swaywm/sway) - An i3 compatible Wayland compositor
+- [Yabai](https://github.com/koekeishiya/yabai) - A tiling window manager for macOS that uses the accessibility API
+
+## Fonts
+
+  *The fonts I've used and enjoyed*
+
+- [Maple Mono](https://github.com/subframe7536/maple-font) - A monospaced font with rounded corners and ligatures.
+- [Fira Code](https://github.com/tonsky/FiraCode) - A free monospaced font with programming ligatures
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - A monospaced font with programming ligatures found near everywhere
+
+## GUI Programs
+
+  *A collection of GUI programs I found useful, that don't really fit into the other categories*
+
+- [alfred](https://www.alfredapp.com/) - macOS Replacement for Spotlight with more productivity features
+- [bitwarden](https://bitwarden.com/) - Cross-platform password manager
+- [flameshot](https://github.com/flameshot-org/flameshot) - Powerful yet simple to use screenshot software
+- [grim](https://github.com/emersion/grim) - Image Grabber for Wayland compositors
+- [grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast) - Hyprland version of Grimshot
+- [hammerspoon](https://github.com/Hammerspoon/hammerspoon) - macOS desktop automation with Lua
+- [hyprpicker](https://github.com/hyprwm/hyprpicker) - A simple and lightweight image picker for Hyprland
+- [hyprpaper](https://github.com/hyprwm/hyprpaper) - Wayland wallpaper utility with IPC controls
+- [obsidian](https://obsidian.md/) - A powerful knowledge base on top of a local folder of plain text Markdown files
+- [raycast](https://www.raycast.com/) - macOS replacement for Spotlight with more productivity features
+- [rectangle](https://github.com/rxhanson/Rectangle) - Move and resize windows on macOS with keyboard shortcuts and snap areas
+- [rofi](https://github.com/davatorium/rofi) - A window switcher, application launcher and dmenu replacement
+- [sddm](https://github.com/sddm/sddm) - Simple Desktop Display Manager for X11 && Wayland
+- [shotcut](https://www.shotcut.org/) - Free and open source cross-platform video editor
+- [sketchybar](https://github.com/FelixKratz/SketchyBar) - A highly customizable status bar for macOS
+- [skhd](https://github.com/koekeishiya/skhd) - Simple hotkey daemon for macOS
+- [sway-bg](https://github.com/swaywm/sway-bg) - Wallpaper manager for Wayland compositors
+- [swaylock](https://github.com/swaywm/swaylock) - Screen locker for Wayland compositors
+- [waybar](https://github.com/Alexays/Waybar) - Super duper customizable Wayland bar for Sway/Wlroots based compositors
+- [waybar-hyprland](https://github.com/r-clifford/Waybar-Hyprland) - Hyprland fork of Waybar
+- [wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Command line copy/paste utilities for Wayland
+- [wl-clipboard-history](https://github.com/janza/wl-clipboard-history) - Wayland clipboard history manager
+
+## Shells
+
+  *The various shells I've tried and useful extensions/plugins*
+
+- [fish](https://fishshell.com/) - A modern shell with features like syntax highlighting and autosuggestions out of the box
+  - [fisher](https://github.com/jorgebucaran/fisher) - The Package Manager for Fish
+  - [umbral](https://github.com/pix-xip/umbral.nvim/tree/main/extras/fish) - Pix's umbral theme for fish
+  - [autopair.fish](https://github.com/jorgebucaran/autopair.fish) - Auto [] {} () etc.
+  - [catppuccin](https://github.com/catppuccin/fish) - Pastel theme for your terminal
+  - [fish-colored-man](https://github.com/decors/fish-colored-man) - Coloured man pages
+  - [fish-ssh-agent](https://github.com/danhper/fish-ssh-agent) - SSH agent using fish.
+  - [fzf.fish](https://github.com/PatrickF1/fzf.fish) - Fzf plugins/hotkeys for fish
+  - [rose-pine](https://github.com/rose-pine/fish) - SOHO vibes for commandline
+  - [sponge](https://github.com/meaningful-ooo/sponge) - Cleans up typos and or commands that do not return 0
+  - [tide](https://github.com/ilancosman/tide) - Async modern shell prompt.
+
+- [nushell](https://github.com/nushell/nushell) - A complicated shell with a focus on piping and handling data inline
+- [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - The more modern bash shell!
+  - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) - A community-driven framework for managing your zsh configuration
+- [bash](https://github.com/bminor/bash) - The default shell almost everywhere
+- [ash](#) - Stripped back alpine shell
+- [dash](#) - Lightweight POSIX compliant shell that tends to be what is actually `/usr/bin/sh`
 
-### My favourite Colour schemes
+## Package Managers
 
-- [Umbral ( My own theme!)](https://github.com/pix-xip/umbral.nvim)
-- [Catppuccin](https://catppuccin.com/)
-- [Tokyonight](https://github.com/folke/tokyonight.nvim)
-- [Shadotheme](https://github.com/Shadorain/shadotheme)
-  
-### Window Managers
+  *Package managers I use on the regular for each of the different systems I run*
 
-#### Hyprland
+- [yay](https://github.com/Jguer/yay) - Yet another yogurt package manager (Arch Linux)
+- [eget](https://github.com/zyedidia/eget) - Installer for pre-build binaries from Github
+- [paru](https://github.com/Morganamilo/paru) - A AUR wrapper for Arch Linux
+- [brew](https://brew.sh/) - The missing package manager for macOS written in Ruby
+- [nix](https://nixos.org/) - A purely functional package manager for Linux and other Unix systems
+  - [home-manager](https://github.com/nix-community/home-manager) - A tool for managing your home-configuration, powered by Nix
 
-My primary window manager, a hybrid tiling/floating compositor for Wayland.
+## Markdown Tools
 
-#### Niri - experimental
+  *Helpful tools for rendering Markdown in the termial*
 
-Experimental window manager for me, this is a infinitely scaling horizontal
-window manager for Wayland built in rust, I have found it to be good when
-you only have a single small screen.
+- [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz
+- [mdcat](https://github.com/lunaryorn/mdcat) - cat for Markdown
+- [mdtt](https://github.com/szktkfm/mdtt) - Markdown table editor TUI
 
-#### Aerospace
+## Editors
 
-My primary window manager on Darwin systems, a hybrid filing/floating window
-manager that doesn't require you to disable SIP like Yabai to get the same
-window management goodness.
+  *The various editors I've tried and thought were useful*
 
-### GUI Stuff
+- [neovim](https://github.com/neovim/neovim) - A fork of vim that you can extend to the moon and back
+- [neovide](https://github.com/neovide/neovide) - A GPU-accelerated version of neovim
+- [Sublime Text](https://www.sublimetext.com/) - A decent cross platform text editor with plugins, extremely good at rendering large files
+- [Zed](https://zed.dev/) - A modern editor with a focus on speed and simplicity
 
-`waybar`
+## Terminal Emulators
 
-- Utility Bar to fill with whatever on `wayland`.
+  *Terminal Emulators I've used and some quick thoughts on them*
 
-`rofi`
+  - [ghostty](https://github.com/ghostty-org/ghostty) - An extremely fast, Linux/macOS feature-rich terminal emulator written in Zig, my current daily driver and all around good vibes for my terminal experience
+  - [kitty](https://github.com/kovidgoyal/kitty) - A fast, feature-rich, GPU based terminal emulator, has a focus on feeling snappy and contains plenty of features but had some strange defaults.
+  - [wezterm](https://github.com/wez/wezterm) - A GPU accelerated cross-platform terminal emulator, highly extensible and customizable with `lua` however it does feel like its fallen a little behind things like `kitty` and `ghostty`, however given you can extend it so far with lua it makes for a very personalised environment if you enjoy configuring.
+  - [alacritty](https://github.com/alacritty/alacritty) - Minimalist, fast emulator, it can dump text to screen fast.
+  - [foot](https://github.com/charmbracelet/foot) - Fast, lightweight and minimalist Wayland terminal emulator. Extremely good performance on Hyprland and Sway.
+  - [st](https://github.com/Shourai/st) - A simple terminal emulator you compile the config for. Extremely minimalist
+  - [iterm2](https://iterm2.com/) - The default terminal app on macOS, it's a bit of a mess but it works
 
-- Launcher for programs and files
+## File Swiss Army Knives
 
-`wl-clipboard-history`
+  *Do you need to manipulate audio, video, images or text/docs? Here are is what you reach for first*
 
-- Clipboard History on GUI
+- [pandoc](https://github.com/jgm/pandoc) - Universal markup converter, Swiss Army Knife for converting documents
+- [ffmpeg](https://ffmpeg.org/) - A collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata, this runs basically every video processing you've ever heard of. The Swiss Army Knife of Audio
+- [sox](https://github.com/chirlu/sox) - Swiss Army Knife of sound processing
 
-`swaybg`
+## Debugging Tools 
 
-- Backgrounds!
+  *Debugging tools for when its all gone to shit Kupo! I need to find more of these*
 
-`swaylock`
+- [cgdb](https://github.com/cgdb/cgdb) - Console front-end for `gdb`
+- [dlv](https://github.com/go-delve/delve) - Delve is a debugger for the Go programming language
+- [gdb](https://sourceware.org/gdb/) - The tried and true debugger for languages ranging from Ada and C to Rust and Go
+- [heretek](https://github.com/wcampbell0x2a/heretek) - GDB TUI inspired by `gef` written in Rust and works with gdbserver remotely
+- [lldb](https://lldb.llvm.org/) - The LLVM debugger, Swift, C#, and other things built atop the LLVM infrastructure
+- [valgrind](https://valgrind.org/) - A suite of tools for debugging and profiling memory
 
-- Lock your PC
+## Version Control
 
-`grim`
+  *Do you like saving your work? Reverting your changes? Keeping a history?!*
 
-- Screenshots
+- [Git Kraken](https://www.gitkraken.com/) - An alternative for `sublime merge` that works well on Windows
+- [gh](https://cli.github.com/) - Github CLI, makes dealing with git repos on github braindead
+- [git-delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for `git`
+- [gitui](https://github.com/gitui-org/gitui) - Fast terminal-ui for git written in Rust, a less pretty `lazygit`
+- [icdiff](https://github.com/jeffkaufman/icdiff) - An improved coloured version of `diff` written in Python
+- [jujutsu](https://github.com/jj-vcs/jj) - A git compatible VCS written in Rust with a new way of handling version control
+- [lazygit](https://github.com/jesseduffield/lazygit) - A fantastic TUI for git written in Go
+- [Sublime Merge](https://www.sublimemerge.com/) - A fantastic, easy to parse git GUI for Sublime Text
+- [svn](https://subversion.apache.org/) - Mercurial based VCS
 
-`grimblast`
+## AI Backed Tooling
 
-- Screenshot Utility specifically for Hyprland.
+  *AI powered tools I've found and tried*
 
-`sddm`
+- [gemini-cli](https://github.com/google-gemini/gemini-cli) - Open source AI agent direct in your terminal, with access to everything.. 
+- [goji](https://github.com/muandane/goji) - Commitizen-like emoji commit tool written in Go with AI commit message generator
+- [smartcat](https://github.com/efugier/smartcat) - 'Putting the brain behind `cat`' integrates an LLM with cat 
+- [tgpt](https://github.com/aandrew-me/tgpt) - AI chatbots without needing API keys
+- [warp](https://www.warp.dev/) - This used to be a temrinal, nowadays its like some llm agent dev env
 
-- Simple Desktop Display Manager - use for login etc.
+## Database Tooling
 
-`hyprpicker`
+  *Basic database tools and databases, honestly I suck at db's*
 
-- Pick out colours easily!
+- [gobang](https://github.com/TaKO8Ki/gobang) - A cross-platform TUI database management tool written in Rust
+- [manticore](https://github.com/manticoresearch/manticore) - A fast, in-memory, vector search engine with SQL-like query syntax
+- [sqlite](https://www.sqlite.org/index.html) - Everyone's favourite flat file database works with everything
+- [surealdb](https://github.com/surrealdb/surrealdb) - Scalable, distributed, collaborative document-graph database
 
-`waybar-hyprland` `(-git)`
+## Programming Languages
 
-- Specific Waybar implementation for Hyprland.
+  *Various programming languages I've worked in*
 
-`hyprpaper`
+- [bash](#) - Default shell scripting language almost everywhere
+- [c#](https://dotnet.microsoft.com/en-us/languages/csharp) - The Microsoft programming language
+- [c++](#) - Overengineered C
+- [c](#) - Do I really need to explain C?
+- [fish](https://fishshell.com/) - Fish scripting language, not POSIX compliant but feels sane
+- [haskell](https://www.haskell.org/) - Because everyone needs to try functional programming at least once
+- [lua](https://www.lua.org/) - A powerful, fast, lightweight, embeddable scripting language
+- [odin](https://github.com/odin-lang/Odin) - The C alternative for the joy of programming
+- [perl](https://www.perl.org/) - Golf the heck out of your code
+- [python](https://www.python.org/) - A general purpose scripting language
+- [swift](https://www.swift.org/) - The Apple programming language
+- [zig](https://github.com/ziglang/zig) - General purpose systems programming language
+
+## Cool Development Libraries 
+
+  *Mostly focused around C or Zig, cool libraries to work with and extend your code*
+
+- [coreutils](https://github.com/coreutils/coreutils) - The GNU core utilities
+- [hiredis](https://github.com/redis/hiredis) - A minimalistic C client for Redis
+- [jemalloc](https://github.com/jemalloc/jemalloc) - A general purpose malloc implementation
+- [libconfig](https://github.com/hyperrealm/libconfig) - A cross-platform library for parsing structured configuration files
+- [libevent](https://github.com/libevent/libevent) - A cross-platform event notification library
+- [libuv](https://github.com/libuv/libuv) - A cross-platform asynchronous I/O library
+- [mimalloc](https://github.com/microsoft/mimalloc) - A compact general purpose allocator with excellent performance
+- [pix.h](#) - My very own header only library that brings along all sorts of useful things!
+- [stb](https://github.com/nothings/stb) - A collection of header only libraries 
+- [xxhash](https://github.com/Cyan4973/xxHash) - A blazingly fast non-cryptographic hash algorithm
+
+## Build Systems
+
+  *Do you like to compile your code? But you don't want the hassle of typing out long compile commands every time?*
+
+- [cmake](https://cmake.org/) - A cross-platform build system generator
+- [make](https://www.gnu.org/software/make/) - Precusor to cmake! Still in use today cause it works!
+- [meson](https://mesonbuild.com/) - A build system using ninja as a backend with a python like syntax
+- [ninja](https://ninja-build.org/) - Build system with a focus on speed and parallelism
+- [remake](https://github.com/pix-xip/remake) - I make my own build system, written in `C`, configured via `lua`
+- [zig](https://ziglang.org/) - Due to its inbuilt C compiler etc, its a shocking good build system
 
-- Wallpapers on Hyprland!
+
+## Command Line Tools!
 
-`wl-clipboard`
+  *The giant unsorted collection of CLI tools I keep, always adding more, at some point I'll split these into proper categories..*
 
-- Clipboard manager for wayland!
+### ls replacements 
 
-`shotcut`
-
-- Free video editing software similar to after effects.
-
-`Alfred`
-
-- Replacement for spotlight on crack for Mac.
-
-`Raycast`
-
-- Replacement for spotlight, commercially developed not community based
-
-`ganttproject`
-
-- An old school gantt project manager that still works well today.
-
-`docker`
-
-- Docker Desktop, for when you cbf writing docker run .....
-
-`orbstack`
-
-- Faster DockerDesktop, hooks docker as well as provides a way to launch
-  vm's via `orb`
-
-`rectangle`
-
-- On top window manager that lets you snap to sides, corners, etc.
-
-`obsidian`
-
-- Markdown editor and renderer - decent for notes.
-
-`bitwarden`
-
-- Modern secure password vault / manager.
-
-`keepassx`
-
-- Older password vault
-
-`tiger-vnc`
-
-- Decent VNC client for when you need GUI remote access.
-
-`skhd`
-
-- Simple Hotkey Daemon, map any key to anything.
-
-`sketchybar`
-
-- Informational Bar configurable with `bash` or `lua`.
-
-`cleanshot x` | `flameshot`
-
-- Improved Screenshotting capabilities
-
-`Hammerspoon`
-
-- Configure and automate parts of your system with `lua`
-
------------------
-
-PIXTODO: Updoot this layout
-
-### Fonts
-
-Just a list of fonts I have used and or liked.
-
-Maple Mono
-Fira Code
-Jet Brains Mono
-
-ttf-fira-code
-ttf-nerd-fonts-symbols-common
-otf-firamono-nerd
-inter-font
-otf-sora
-noto-fonts
-noto-fonts-emoji
-ttf-jetbrains-mono-nerd
-adobe-source-code-pro-fonts"
-
------------------
-
-### Shells
-
-`fish` 
-
-- `tide` prompt configuration
-- `fisher` package manager
-
-```bash
-jorgebucaran/fisher        # The Package Manager
-patrickF1/fzf.fish         # FZF with hotkeys for fish.
-decors/fish-colored-man    # Coloured man pages
-danhper/fish-ssh-agent     # SSH agent using fish.
-jorgebucaran/autopair.fish # Auto [] {} () etc.
-ilancosman/tide@v6         # Async modern shell prompt.
-meaningful-ooo/sponge      # Cleans up typos from history
-pink-n-purple-pix          # My old colourscheme
-catppuccin/fish            # Pastel theme (mocha)
-rose-pine/fish             # SOHO vibes for commandline
-```
-
-`nushell`
-
-- Overly complicated shell with impressive builtins for data handling
-
-`zsh`
-
-- Just improved bash :>
-
-`bash`
-
-- Your basic bitch find everywhere linux shell.
-
-`ash`
-
-- Stripped back alpine shell.
-
-`dash`
-The faster debian improved 'sh' usually what sh links to on machines.
-
------------------
-
-### Package Managers
-
-`yay` (Arch)
-
-- Pacman standin for AUR written in Go.
-
-`paru` (Arch)
-
-- Pacman standin for AUR with features, written in Rust
-
-`brew` (All)
-
-- General purpose but slower package manager written in Ruby
-
-`nix` (All)
-
-- Prebuilt, precached, declarative consistent packages.
-
-`home-manager` (All)
-
-- Manages your home directory and nix packages via config files.
-
------------------
-
-### Markdown
-
-`glow` 
-
-- Specific markdown viewer ( has a neovim plugin )
-
-`gum format | pager`
-
-- Using the shell beautifier that is gum to format markdown
-
------------------
-
-### Editors
-
-`neovim`
-
-```bash
-# My Setup:
-### Distribution Boostrap:
-  `LazyVim` - Folkes Neovim Distribution. I run a customised version of this
-### Pkg Manager:
-  `lazy.nvim`
-### Noteable Changes from LazyVim:
-  `pix_plugins` - Just extra stuff I built and use
-  `ftplugins` - Added a few extra for languages I use regularly.
-  `nvim.lua/style` - Allow for a custom style setting at project roots
-  `keybinds` - I use Colemak, changes are made to adjust for taht.
-  `formatters` - Custom ones for C and Swift
-  `LLM` - Experimental LM Studio Plugin for local AI Codegen
-  `fish` - Added to make editing my shell easier
-  
-  ## Disabled:
-  - neotree
-  - mini.pairs
-  - spectre
-  - flit
-  - LuaSnip
-```
-
-`neovide`
-
-- A frontend GUI for neovim/vim. Has cute little animations and stuff.
-
-`Sublime Text`
-
-- Running a custom theme I made on MacOS.
-
-`Zed`
-
-- Interesting editor written in Rust, comes with built in LSP support.
-
------------------
-
-### Terminals
-
-`ghostty` 
-
-- Crossplatform - simple configuraition very fast Zig terminal
-
-`wezterm` 
-
-- Crossplatform - configurable with lua, GPU accelerated.
-
-`foot` 
-
-- Wayland specific terminal, quite fast!
-
-`st`
-
-- Compiled C terminal. Very Minimal
-
-`alacritty`
-
-- GPU accelerated like `wezterm`, text to screen go brr
-
-`iterm2`
-
-- Your classic basic mac terminal upgrade.
-
------------------
-
-### File Conversion
-
-#### Swiss army knives
-
------------------
-
-`pandoc`
-
-- For docs
-
-`ffmpeg`
-
-- For video
-
-`sox`
-
-- For audio
-
-`blink` || `blink-emulator` && `blinkenlights`
-
-- Smol virtual machine for running linux posix binaries.
-
------------------
-
-### Command Line Tools
-
-{{
-
-`eza` (`exa` is deprecated) 
-
-- A replacement for `ls` with more options available.
-
-`lla`
-
-- A replacement for ls with more options, newish?
-
-`erd` || `erdtree`
-
-- Another `ls` replacement written in Rust.
-
-`omm`
-
-- TUI task manager, vim bindings, can be used to visualise changing priorities.
-
-`zoxide` 
-
-- A replacement for `cd`, faster, more options.
-
-`atuin` 
-
-- Fancy sync-able shell history, querieable with human language.
-
-`z`
-
-- Written in shell similar to `zoxide`
-
-`pazi`
-
-- More complex algo's then `zoxide` at the cost of performance.
-
-`fasd`
-
-- Another jumper! Making life easier.
-
-`bat` 
-
-- `cat` but with color and stuff
-
-`fd` 
-
-- Better `find`, easier syntax, generally faster.
-
-`ripgrep` 
-
-- `grep` but faster and better on large datasets
-
-`jq` 
-
-- Json terminal formatter, very very useful
-
-`jqp`
-
-- A TUI playground for `jq` lets you visualise and explore JSON objects.
-
-`cyme`
-
-- `lsusb` replacement, written in Rust
-
-`rsync` 
-
-- `cp` / `scp` replacement, often faster when copying repeatedly
-
-`rclone`
-
-- Sync files and folders with various cloud providers
-
-`dd` 
-
-- Disk management, `cp` replacement, disk utility Warning: Dangerous.
-
-`gd`
-
-- Bunch of cli tools for graphic manipulation.
-
-`sd`
-
-- Better `sed`, easier syntax
-
-`sad` 
-
-- Space Aged seD - kind of like `sd`, easier syntax, similar to `fastmod`
-
-`fastmod` 
-
-- For making large codebase changes across multiple files at once.
-
-`croc` 
-
-- Easily and securely send any file from computer to computer.
-
-`rip` && `rm-improved` 
-
-- A safer, more error friendly `rm`, allows for a graveyard.
-
-`tokei` 
-
-- Keeps track of the lines of code written in a project
-
-`scc`
-
-- Same as `tokei` fast code line counter, comments, blank lines etc.
-
-`dust` 
-
-- `du` with visual display
-
-`duf` 
-
-- `df` with visual display
-
-`hunspell`
-
-- Check the spelling of a file given an encoding.
-
-`tealdeer || tldr` 
-
-- `man` but a quick and dirty version
-
-`task` || `go-task`
-
-- A helpful CI tool for creating pipelines and auto builds.
-
-`gaze`
-
-- Similar to task, watches a directory for changes and runs commands
-
-`curl cheat.sh/<thing>`
-
-- A helpful cheatsheet about a topic, usually web tool related.
-
-`procs` 
-
-- A better, coloured and more easily searched `ps`
-
-`gum` 
-
-- General purpose library to improve your scripting with various
-  functions (log, timer, loading..)
-
-`mutt` || ``NeoMutt``
-
-- Email! But in your terminal!
-
-`navi`
-
-- Quick Cheatsheets that let you autofill commands and run them.
-
-`neofetch` 
-
-- Show information about your computer, inactive.
-
-`fastfetch`
-
-- Shows information about your computer, active.
-
-`onefetch`
-
-- Like `neofetch` or `fastfetch` except for git repositories
-
-`npm, pnpm, yarn, bun, etc..`
-
-- The Javascript ecosystem...
-
-`choose`
-
-- Replacement for `cut`
-
-`flex`
-
-- Program for generating scanners for lexical pattern matching faster.
-
-`dasel`
-
-- `jq` like parser for JSON, YAML, TOML, etc
-
-`bitwise`
-
-- bit calculator with interactive setup
-
-`fjira` 
-
-- Command line Jira
-
-`k9s`
-
-- Kubernetes cluster management
-
-`pingme` 
-
-- Allows you to reach out to various services with a message
-
-`await`
-
-- Await things to be finished in the terminal
-
-`glances`
-
-- Kind of like a way more advance `top`
-
-`htop` || `btop` 
-
-- Better versions of top that keep its general concepts + extra
-
-`gperf`
-
-- Generates 'perfect' hash functions.
-
-`nettle`
-
-- Hashing CLI tool.
-
-`mcfly`
-
-- Rust powered, neural network enhanced shell history search
-
-`botan`
-
-- Cryptographic CLI tool for generating all sorts of fun.
-
-`grex`
-
-- Generates regex based on a user test case, hit and miss imo.
-
-`hyperfine`
-
-- benchmarks stuff based on conditions you pick and generate.
-
-`iproute2mac` 
-
-- `ip` commands on your mac, not all, but enough to make it comfy.
-
-`shellcheck` 
-
-- Make sure your scripts are written efficiently and without obvious pitfalls
-
-`xxhash`
-
-- hehe, hash go brrrr
-
-`brotli`
-
-- Compression and Decompression package. (Think tar kinda)
-
-`pixz` 
-
-- parallised `xz` so its faster.
-
-`xz`
-C Heavy compression tool, usually results in very small output
-
-`7zip`
-
-- Easy zip of files for people who dunno how to use tar.
-
-`zstd`
-
-- Competes with `xz` for compression, but always has faster Decompression
-
-`gzip`
-
-- Faster compression tool, but will not result in as small of a output.
-
-`bear` 
-
-- Generates compile_commands.json files for Clangd and some other LSPs
-
-`bp` 
-
-- 'better paste' - optimal for chaining with pipes
-
-`clipboard`
-
-- Would you like a copy paste buffer on crack?
-
-`dos2unix`
-
-- Remove pesky `\r\n` from files coming from windows to unix
-
-`curlie`
-
-- Easy to use curl based off `httpie`
-
-`httpie`
-
-- An easy way to test your API with requests from command line
-
-`lnav` 
-
-- Extremely fast log viewer in C++. Tutorial at `ssh tutorial1@gdemo.lnav.org`
-
-`angle-grinder` 
-
-- Logfile analysis tool with builtin manipulations, could replace `cat grep` etc.
-
-`ran`
-
-- Simple file server in Go, good for local lan passing things
-
-`yq`
-
-- `jq` but for YAML
-
-`pueue`
-
-- Long running task manager with concurrency
-
-`rga`
-
-- `ripgrep` extended to include PDF, tar, sqlite and other documents when searching
-
-`noti`
-
-- Get yourself some notifications when things are done
-
-`ctop`
-
-- `top` for running containers from something like `docker`
-
-`fzy`
-
-- A potentially faster then `fzf` fuzzy finder
-
-`hexyl` 
-
-- A modern newer hex viewer
-
-`hevi`
-
-- Yet another `xxd` clone
-
-`skim`
-
-- `fzf` in rust
-
-`you-get`
-
-- Download videos from youtube
-
-`map`
-
-- Map commands out of stdin
-
-`natls`
-
-- Another `ls` replacement written in `rust`
-
-`wfh`
-
-- Synchronise folders between machines with `rsync` and dir watching
-
-`got` 
-
-- A fast downploader for the commandline in GO
-
-`axel` 
-
-- Download anything at the speed of threads
-
-`ugm`
-
-- A TUI for viewing information about UNIX users and groups.
-
-`tailspin` || `tspin` 
-
-- A log file highlighter in Rust, can be used as a drop in for `less` and `tail`
-
-`keyb`
-
-- A selfmade cheatsheet for keybindings with fuzzy lookup
-
-`sttr`
-
-- A tool for performing string manipulation from the command line
-
-`superfile` || `spf`
-
-- A file manager in your terminal
-
-`yazi` 
-
-- A blazingly fast TUI file manager with plugins!
-
-`hwatch`
-
-- Alternative of the `watch` command, keeps track of command execution
-  and changes etc.
-
-`dblab`
-
-- Cmdline database interactive TUI, supports 5 different db's
-
-`mdtt`
-
-- Markdown table editor with `vim` like keybinds, good if you use alot
-  of `markdown` tables.
-
-`jnv`
-
-- Interative JSON viewer that executes `jq` queries to filter.
-
-`lemmeknow`
-
-- Identifies strings through signature detection.
-
-`mprocs`
-
-- Run multiple proccesses in parallel, seems like it could be good for
-  hot reload ++ server listening
-
-`typocia`
-
-- Cozy little terminal typer, lets you practice so you to can be Blazingly Fast!~
-
-`sig`
-
-- Interactive grep, good over streamed data, such as websocket outputs.
-
-`diskonaut`
-
-- Treemap style viewer of your filesystem.
-
-`pastel`
-
-- Generate, convert and manipulate colours and colourcodes!
-
-`ghq`
-
-- A go tool for managing git repositories.
-
-`gdu`
-
-- Go Disk Usage, little TUI for seeing where your disk has been filled up.
-
-`ouch`
-
-- Obvious Unified Compression Helper! A tool for doing all sorts of compression
-  and detection.
-
-`atop`
-
-- TUI for linux performance monitoring.
-
-`jless`
-
-- JSON viewer written in rust.
-
-`jqp`
-
-- Playground for interacting with `jq` and seeing what commands do in realtime.
-
-`sshs`
-
-- TUI for SSH sessions, using your ssh config, useful for those one
-  off ones you forget, or if you need to figure out an ip quickly.
-
-`yt-dlp`
-
-- Youtube downloader with extended features and other uses.
-
-`zeit`
-
-- Time tracker for your terminal :>
-
-`clx` || `circumflex`
-
-- Hacker news browser in your terminal.
-
-`dua` || `dua-cli`
-
-- Interactive TUI for seeing space used by files on system.
-
-`dive`
-
-- Tool for going through `docker` containers.
-
-`nemu`
-
-- Basic TUI for managing `qemu` vm's
-
-`cotp`
-
-- Terminal tool for managing OTP's
-
-`tran`
-
-- Send files to other computers with a nice TUI.
-
-`portal`
-
-- Another way to send files via a relay system, similar to `croc`
-
-`goji`
-
-- Format commit messages using emojis and such.
-
-`miller`
-
-- A multi-purpose parser for TOML, YAML, JSON, CSV etc.
-
-`nomino`
-
-- Batch renamer from the command line with some extra formatting.
-
-`lazyjournal`
-
-- Inspired by `lazydocker` and `jazygit` except for systemd/journald output.
-
-`nvrs`
-
-- Fast version checker for software new releases
-
-`dyff`
-
-- Diff tool for YAML and JSON files
-
-`pgtree`
-
-- Process hierachy tree for specific running processes.
-
-`logmerger`
-
-- Written in python, allows viewing of multiple logs at the
-  same time, in time series order.
-
-`hostctl`
-
-- Tool for managing hostfile configuration, designed for devs who swap between
-  alot of host confs, allowing for profiles etc of '/etc/hosts'
-
-`pillager`
-
-- Filesystem scanner for sensitive info, based off gitleaks and others
-
-`pdu`
-
-- Like `dust` and `du`, lets you see disk usage.
-
-`xh`
-
-- Drop in replacement for `curl` written in Rust, with some fancy colours, json work,
-  and general manipulation of HTTP requests.
-
-`cod` 
-
-- Generate autocompletes based off running `--help` for your shell.
-
-`rust-stakeholder`
-
-- Fill your screen with all sorts of jargon and nonsense to impress the shareholders!
-
-}}
-
------------------
-
-### CLI Network Utilities
-
-{{
-
-`netcat` 
-
-- The network swiss army knife
-
-`rcat`
-
-- Netcat but in rust
-
-`ssh-para`
-
-- Parallel SSH job runner with interactive CLI, good output.
-
-`tcpdump` 
-
-- best way to view your network data in command line
-
-`impala`
-
-- TUI Wifi network manaagement for Linux
-
-`trippy` 
-
-- A network diagnostics tool
-
-`sntop`
-
-- uses fping to determine connectivity of hosts based on a config file.
-
-`bmon`
-
-- A network monitoring tool!
-
-`cidr`
-
-- Classless Inter-Domain Routindg tool for performing various actions on,
-  around and about them.
-
-`bandwhich` 
-
-- Watch what proccesses are using bandwidth, how many connections etc.
-
-`zerotier-one` 
-
-- Build your own network anywhere, connect to anything.
-
-`dog` 
-
-- A more friendly version of `dig`
-
-`hping3` 
-
-- Would you like to DOS something? Wanna do it again?
-
-`unbound`
-
-- recursive, validating and caching dns resolver (daemon version)
-
-`rustscan`
-
-- `nmap` written in `rust` run from `docker` usually
-
-`doggo`
-
-- DNS client similar to `dog` or `dig`
-
-`stu`
-
-- CLI AWS S3 interactive tool
-
-`updo`
-
-- Monitor the uptime of the various websites with alerts and metrics
-
-`havn`
-
-- Port scanner similar to `nmap` with some decent defaults.
-
-`eget`
-
-- Kind of like a package manager for github, allows installing of simple
-  already compiled binaries. ( Use at your own risk for obvious reasons. )
-
-`tufw`
-
-- TUI for `ufw` firewall, allows visualisation of your rules while making changes
-`wg-cmd`
-
-- Wireguard TUI for managing connections.
-
-`pvw`
-
-- Port viewer TUI written in Go.
-
-`tcpterm`
-
-- TUI for `tcpdump`
-
-}}
-
------------------
-
-### Debugging
-
-`gdb` 
-
-- The tried and true debugger most commonly associated with C
-
-`dlv` 
-
-- Debugger specifically for `go`, has knowledge of the runtime, allows for
-  great in depth inspection
-
-`heretek`
-
-- Another wrapper for GDB without the python dependency, a TUI.
-
-`cgdb` 
-
-- GDB featuring a split view that shows source code among other things.
-
-### Version Control
-
-`lazygit` 
-
-- TUI style git client.
-
-`jujutsu` || `jj` 
-
-- Combines the features of git, mercurial and extras into one system.
-
-`gitui`
-
-- TUI style git client - faster then lazygit according to benchmarks with less crashes
-
-`svn`
-
-- Mercurial based version control system
-
-`gh`
-
-- Interact specifically with github, makes pr and stuff much quicker then by hand.
-
-`gh-dash`
-
-- Dashboard for `gh` written in Go  
-
-`git-flow`
-
-- Way overengineered form of git management with branches out the wazoo.
-
-`git-leaks` 
-
-- Looks through repos for obvious leaks like passwords or creds or api-keys
-
-`delta`
-
-- Smarter `diff` with colour, dual layouts and closer to Sublime Merge style
-
-`icdiff`
-
-- Smarter `diff` with colour and dual layouts, easier to read.
-
-#### Version Management (GUI)
-
-`Sublime Merge` 
-
-- Fantastic git manager, makes merges very simple
-
-`git-kraken`
-
-- Alternative to the above, preference thing.
-
------------------
-
-### Build Systems
-
-`meson` 
-
-- Easier Cmake using ninja as a backend.
-
-`cmake`
-
-- The better version of make, though its a pain
-
-`ninja`
-
-- Cmake replacement build system.
-
-`make`
-
-- The precursor to cmake.
-
-`pixbuild` || `remake` 
-
-- Pix's very own build system, written in C, configured via lua.
-
-`zig` 
-
-- Turns out zig builds compiler is actually pretty fancy
-
-### Development Libraries
-
-`libevent`
-
-- Heard you wanted massive async socket connections.
-
-`libconfig`
-
-- Standardised C config reader
-
-`hiredis`
-
-- Redis in your C what joy
-
-`coreutils`
-
-- Standard C building blocks, you should know / use these.
-
-`xxhash`
-
-- hehe, hash go brrrr
-
-`mimalloc`
-
-- Microsofts better implementatino of the standard library malloc.
-
-`jemalloc`
-
-- emphasis on no framgmentation and concurrency support
-
-`stb`
-
-- I like to make use of the header only libraries
-
-`pix.h`
-
-- My own STB style header that has a bunch of my ever growing stuff
-
------------------
-
-### Languages
-
-`C`
-
-- Need I say more.
-
-`go`
-
-- C with training wheels, meaning you can just go really fast all the time.
-
-`Odin`
-
-- C with QoL out of the box and less ambiguous behaviour
-
-`zig`
-
-- Systems level language competitive with C and C++
-
-`lua`
-
-- Configuration for `neovim` and `wezterm`, small scripting language with `C` integration.
-
-`Swift`
-
-- Apples dynamic everything GPL. Cross compat with C.
-
-`C++`
-
-- You know, C with extra bloat. x(
-
-`Python`
-
-- For when you really need 500 ways to do the same thing badly
-
-`bash`
-
-- Yes its a language, bite me. Get good at it.
-
-`fish`
-
-- Like bash, but if you use that shell, handy to know. (not posix compliant)
-
-`C#`
-
-- Microsoft flavour Java, good for distributed systems in my experience
-
-`perl` || `raku`
-
-- If you really just need to golf something..
-
-`haskell`
-
-- Cause everyone needs to try functional programming at least once.
-
------------------
-
-### Databases && Tools
-
-This is honestly a massive weak point for me, so here is just some basic
-stuff I've used and enjoy
-
------------------
-
-`sqlite`
-
-- Everyone's favourite flat-file works with anything database
-
-`surealdb`
-
-- A multi model database using what I think is a document system?
-
-`manticore`
-
-- C++ Elastic Search esque document data base.
-
-`gobang`
-
-- TUI for interacting with various databases.
-
------------------
-
-### AI Backed Tooling
-
-Tools that in some way rely on or integrate AI specifically.
-
-`smartcat`
-
-- Its `cat` but integrates with ollama etc, does a buncha stuff.
-
-``Warp``
-
-- Mac only, proprietary... integrated AI. Am Sus of it tbqh
-
-`tgpt`
-
-- Terminal chat gpt without api keys?
-
-`gemini-cli`
-
-- gemini cient in your terminal?..
+  *Advanced, modern and or simple replacements for everyone's favourite idle command to run*
+
+- [erdtree](https://github.com/solidiquis/erdtree) - Cross-platform, multi-threaded and general purpose filesystem and disk usage utility with .gitignore awareness
+- [eza](https://github.com/eza-community/eza) - A modern alternative to `ls` with lots of features!
+- [lla](https://github.com/chaqchase/lla) - Blazingly fast `ls` replacement with 'superpowers'
+- [lsd](https://github.com/lsd-rs/lsd) - Another rust rewrite of `ls`
+- [natls](https://github.com/willdoescode/nat) - `ls` alternative with useful info and a splash of colour
+
+### cd replacements
+
+  *Because sometimes you just need to jump around instead of typing full paths*
+
+- [fasd](https://github.com/clvv/fasd) - An autojumper for jumping to files and directories
+- [pazi](https://github.com/euank/pazi) - An autojump 'zap to directory' helper
+- [z](https://github.com/rupa/z) - Z to jump around with regex
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter `cd` command
+
+### Linux Ng Tools - Replacements for common linux coreutils
+
+  *Modern replacements for the tried and true*
+
+- [atop](https://github.com/Atoptool/atop) - System and process monitoring for Linux, alternative to `top`
+- [bat](https://github.com/sharkdp/bat) - A `cat` clone with wings
+- [btop](https://github.com/aristocratos/btop) - A monitor of resources, alternative to `top`
+- [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to `cut` and some `awk` commands
+- [cyme](https://github.com/tuna-f1sh/cyme) - Cross-platform replacement for `lsusb`
+- [dua](https://github.com/Byron/dua-cli) - A more intuitive version of `du`
+- [duf](https://github.com/muesli/duf) - An intuitive visual replacement for `df`
+- [dust](https://github.com/bootandy/dust) - A more intuitive version of `du` with a nice visual output
+- [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to `find`
+- [glances](https://github.com/nicolargo/glances) - A `top`/`htop` alternative written in Python
+- [hevi](https://github.com/Arnau478/hevi) - A hex viewer and alternative to `xxd`
+- [hexyl](https://github.com/sharkdp/hexyl) - A coloured hex viewer and `xxd` alternative
+- [htop](https://github.com/htop-dev/htop) - An interactive process viewer, alternative to `top`
+- [hwatch](https://github.com/blacknon/hwatch) - Alternative to `watch`, records the differences in execution results and can check differences after
+- [procs](https://github.com/dalance/procs) - A modern replacement for `ps`
+- [rip](https://github.com/nivekuil/rip) - A safer and ergonomic alternative to `rm`, includes a trash!
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - A search tool like `grep` but faster
+- [rsync](https://github.com/RsyncProject/rsync) - An open source utility for fast incremental file transfer, potential replacement for `cp` and `scp`
+- [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI, replacement for `sed`
+
+### CLI Network Tools
+
+  *Networking command line tools for debugging and more!*
+
+- [axel](https://github.com/axel-download-accelerator/axel) - Lightweight CLI download accelerator
+- [bandwich](https://github.com/imsnif/bandwhich) - Terminal bandwidth utilization tool
+- [bmon](https://github.com/tgraf/bmon) - Bandwidth monitor and rate estimator for your terminal
+- [cidr](https://github.com/bschaatsbergen/cidr) - Network tool for subnet calculation and CIDR explanation
+- [curlie](https://github.com/rs/curlie) - The power of curl, the ease of `httpie`
+- [dog](https://github.com/ogham/dog) - A command-line DNS client
+- [doggo](https://github.com/mr-karan/doggo) - A modern DNS client like `dig` written in Go
+- [got](https://github.com/melbahja/got) - Go tool to download large files faster then `curl` and `wget`
+- [havn](https://github.com/mrjackwills/havn) - A configurable port scanner with decent default options
+- [httpie](https://github.com/httpie/cli) - user-friendly, command-line HTTP client for the API era, JSON support, colours, sessions, downloads, plugins and move
+- [iproute2mac](https://github.com/brona/iproute2mac) - CLI wrapper for basic network utilities on MacOS
+- [netcat](https://netcat.sourceforge.net/) - The network swiss army knife
+- [rustscan](https://github.com/bee-san/RustScan) - A 'modern' port scanner replacement for `nmap`
+- [sntop](https://sntop.sourceforge.net/) - A simple network top
+- [socat](https://www.dest-unreach.org/socat/) - Another swiss army knife for networking!
+- [ssh-para](https://github.com/joknarf/ssh-para) - Parallel ssh jobs manager with interactive CLI
+- [stu](https://github.com/lusingander/stu) - A TUI explorer for Amazon S3 buckets
+- [tcpdump](https://www.tcpdump.org/) - A way to dump network traffic straight off the interface
+- [tcpterm](https://github.com/sachaos/tcpterm) - A TCPDump visualiser
+- [trippy](https://github.com/fujiapple852/trippy) - Network diagnostic tool with TUI output
+- [tufw](https://github.com/peltho/tufw) - A TUI for `ufw`
+- [unbound](https://github.com/NLnetLabs/unbound) - A validating, recursive, caching DNS resolver
+- [updog](https://github.com/Owloops/updo) - Uptime monitoring CLI tool
+- [wg](https://git.zx2c4.com/wireguard-tools/) - A toolkit for managing WireGuard
+- [zerotier-one](https://www.zerotier.com/) - A mesh networking protocol that lets you connect devices together without the hassle of setting up a VPN, it has a free tier and a self hosted!
+
+
+### Compression Tools
+
+  *Making things smol, hopefully at acceptably fast speeds*
+
+- [7zip](https://7-zip.org/) - A file archiver with a focus on speed
+- [gzip](https://www.gnu.org/software/gzip/) - A fast compression tool
+- [lz4](https://github.com/lz4/lz4) - An extremely fast compression algorithm
+- [ouch](https://github.com/ouch-org/ouch) Painless compression and decompression in your terminal
+- [pixz](https://github.com/vasi/pixz) - Parallel, indexed xz compressor
+- [xz](https://github.com/tukaani-project/xz) - A high-compression file format and tool
+- [zstd](https://github.com/facebook/zstd) - A fast lossless compression algorithm
+
+### Terminal File Managers
+
+  *Because who needs a GUI*
+
+- [nnn](https://github.com/jarun/nnn) - The unorthodox terminal file manager designed to be fast with zero config
+- [superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
+- [yazi] - Blazingly fast terminal file manager written in Rust, based on async I/O
+
+### CLI Data Manipulation 
+
+  *Easily manipulate common data formats with these tools*
+
+- [angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
+- [dasel](https://github.com/TomWright/dasel) - Select, Put, Delete data from JSON, TOML, YAML, XML and CSV files with a single tool
+- [fastmod](https://github.com/facebookincubator/fastmod) - A fast batch file editor find and replace
+- [jless](https://github.com/PaulJuliusMartinez/jless) - JSON viewer designed for reading, exploring and searching through JSON data
+- [jnv](https://github.com/ynqa/jnv) - Interactive JSON filter using `jq`
+- [jq](https://github.com/jqlang/jq) - Command line JSON processor in C
+- [jqp](https://github.com/noahgorstein/jqp) - A TUI playground to experiment with `jq`
+- [jqp](https://github.com/noahgorstein/jqp) - TUI playground to use with `jq`
+- [miller](https://github.com/johnkerl/miller) - Miller is like `awk`, `sed`, `cut`, `join` and `sort` for name-indexed data such as CSV, TSV, and tabular JSON
+- [sad](https://github.com/ms-jpq/sad) - CLI batch search and replace
+- [sttr](https://github.com/abhimanyu003/sttr) - Cross-platform tool to perform various operations on strings
+- [yq](https://github.com/mikefarah/yq) - Portable command-line YAML and more properties processor
+
+### Other CLI Tools
+
+  *All the other CLI tools I cannot categorise easily or don't have many competitors, yet*
+
+- [atuin](https://github.com/atuinsh/atuin) - Magical Shell History, syncs across multiple machines if you want
+- [await](https://github.com/slavaGanzin/await) - Single binary that runs list of commands in parallel and waits for their termination
+- [bear](https://github.com/rizsotto/Bear) - A tool for generating compilation database for clang tooling
+- [bitwise](https://github.com/mellowcandle/bitwise) - Terminal based bit manipulator in `ncurses`
+- [bp](https://github.com/printfn/bp) - Cross-platform clipboard tool
+- [broot](https://github.com/Canop/broot) - A file manager with a focus on speed and simplicity
+- [cheat.sh](https://github.com/chubin/cheat.sh) - Endless quick cheat sheets for various topics!
+- [circumflex](https://github.com/bensadeh/circumflex) - Hacker News in your terminal
+- [clipboard](https://github.com/Slackadays/Clipboard) - Ridonkuliciously smart clipboard manager
+- [cod](https://github.com/dim-an/cod) - Auto-Completion daemon for `bash`/`fish`/`zsh`
+- [cotp](https://github.com/replydev/cotp) - Terminal tool for managing OTP's
+- [croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another
+- [ctop](https://github.com/bcicen/ctop) - `top`-like interface for container metrics
+- [dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves
+- [diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator
+- [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
+- [dos2unix](https://github.com/TizenTeam/dos2unix) - Remove the extras from dos files to be compatible with unix
+- [dua-cli](https://github.com/Byron/dua-cli) - View disk space usage and delete unwanted data fast
+- [dyff](https://github.com/homeport/dyff) - Diff tool for YAML files, and sometimes JSON
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) - The up to date system info tool, written with performance in mind like `neofetch`
+- [fjira](https://github.com/mk-5/fjira) - The golang fuzzy-find cli jira interface
+- [flex](https://github.com/westes/flex) - Fast Lexical Analyser, scanner generator for lexing in C && C++
+- [fzy](https://github.com/jhawthorn/fzy) - Simple, fast fuzzy finder for the terminal
+- [gdu](https://github.com/dundee/gdu) - Pretty fast disk usage analyser with TUI written in Go
+- [ghq](https://github.com/x-motemen/ghq) - Remote repository management made easy
+- [gperf](https://github.com/yakaz/gperf) - A perfect hash function generator
+- [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts, includes plenty of quality of life features for scripting
+- [hostctl](https://github.com/guumaster/hostctl) - Your dev tool to manage `/etc/hosts` like a pro
+- [hunspell](https://github.com/hunspell/hunspell) - The most popular spellchecking library
+- [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+- [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to Manage your clusters in style
+- [keyb](https://github.com/kencx/keyb) - Create and view custom hotkey cheatsheets in the terminal
+- [lazyjournal](https://github.com/Lifailon/lazyjournal) - A TUI for reading journald, auditd, file system and more logs with coloured output, filtering and timestamping
+- [lemmeknow](https://github.com/swanandx/lemmeknow) - The fastest way to identify anything looking at strings
+- [lnav](https://github.com/tstack/lnav) - Logfile navigator in C++
+- [mprocs](https://github.com/pvolok/mprocs) - Run multiple commands in parallel
+- [mutt](https://github.com/muttmua/mutt) - An email client for your terminal
+- [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
+- [nemu](https://github.com/nemuTUI/nemu) - NCurses based UI for QEMU
+- [neofetch](https://github.com/dylanaraps/neofetch) - A command line system information tool written in bash
+- [nomino](https://github.com/yaa110/nomino) - Batch rename utility for developers
+- [noti](https://github.com/variadico/noti) - Monitor a process and trigger a notification!
+- [nvrs](https://github.com/adamperkowski/nvrs) - New version checker for software releases
+- [onefetch](https://github.com/o2sh/onefetch) - Git repository summary on your terminal, similar to `neofetch`/`fastfetch` but for `git`
+- [oom](https://github.com/dhth/omm) - Keyboard-driven task manager/todo list for command-line
+- [pastel](https://github.com/sharkdp/pastel) - A command-line tool to generate, analyze, convert and manipulate colors
+- [pdu](https://github.com/KSXGitHub/parallel-disk-usage) - Highly parallelised fast directory tree analyser
+- [pgtree](https://github.com/joknarf/pgtree) - Unix process hierachy tree for specific processes
+- [pillager](https://github.com/brittonhayes/pillager) - Pillage filesystems for sensitive information with Go
+- [pingme](https://github.com/kha7iq/pingme) - CLI utility which provides the ability to send messages or alerts to multiple messaging platforms & email
+- [pueue](https://github.com/Nukesor/pueue) - Manage shell commands in the background and execute them whenever
+- [ran](https://github.com/m3ng9i/ran) - Simple static web server written in Go
+- [rclone](https://github.com/rclone/rclone) - `rsync` for cloud storage
+- [rga](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
+- [rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder) - Generate impressive looking terminal output to look busy when the stakeholders are walking around for inspection
+- [scc](https://github.com/boyter/scc) - Count your lines of code accurately and quickly
+- [shellcheck](https://github.com/koalaman/shellcheck) - Static analysis tool for shell scripts
+- [sig](https://github.com/ynqa/sig) - Interactive grep for streamed data
+- [skim](https://github.com/skim-rs/skim) - Fuzzy Finder written in Rust
+- [sshs](https://github.com/quantumsheep/sshs) - TUI interface for SSH and SSH Config Connections
+- [tailspin](https://github.com/bensadeh/tailspin) - Log file highlighter
+- [task](https://github.com/go-task/task) - A task runner / build tool written in Go, aims to be simpler then `make`
+- [tealdeer](https://github.com/tealdeer-rs/tealdeer) - A rust implementation of `tldr`
+- [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands
+- [tokei](https://github.com/XAMPPRocky/tokei) - Count your lines of code, quickly
+- [tran](https://github.com/abdfnx/tran) - Securely transfer and send anything between computers with a TUI
+- [typocia](https://github.com/bloznelis/typioca) - Cozy typing speed tester for terminals
+- [ugm](https://github.com/ariasmn/ugm) - Terminal based UNIX user and group browser
+- [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
+- [you-get](https://github.com/soimort/you-get) - Dumb downloader that scrapes the web
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Feature rich command line audio/video downloader
+- [zeit](https://github.com/mrusme/zeit) - Zeit, Erfassen, A command line tool for tracking time spent on activities
+
+
+### Javascript Ecosystem 
+
+  *Javascript go brrrrr*
+
+- [bun](https://github.com/oven-sh/bun) - A fast all-in-one JavaScript/TypeScript runtime written in Zig
+- [deno](https://github.com/denoland/deno) - A runtime for JavaScript/TypeScript written in Rust
+- [node](https://github.com/nodejs/node) - The Node.js JavaScript runtime
+- [npm](https://github.com/npm) - The classic package manager for JavaScript
+- [pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager
+- [yarn](https://github.com/yarnpkg) - Fast ,reliable, and secure dependency management for JavaScript
