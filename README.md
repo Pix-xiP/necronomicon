@@ -217,6 +217,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [c++](#) - Overengineered C
 - [c](#) - Do I really need to explain C?
 - [fish](https://fishshell.com/) - Fish scripting language, not POSIX compliant but feels sane
+- [go](https://golang.org/) - The simple and powerful programming language from Google
 - [haskell](https://www.haskell.org/) - Because everyone needs to try functional programming at least once
 - [lua](https://www.lua.org/) - A powerful, fast, lightweight, embeddable scripting language
 - [odin](https://github.com/odin-lang/Odin) - The C alternative for the joy of programming
