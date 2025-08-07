@@ -349,7 +349,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
 - [nnn](https://github.com/jarun/nnn) - The unorthodox terminal file manager designed to be fast with zero config
 - [superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
-- [yazi] - Blazingly fast terminal file manager written in Rust, based on async I/O
+- [yazi](https://github.com/sxyazi/yazi) - Blazingly fast terminal file manager written in Rust, based on async I/O
 
 ### CLI Data Manipulation 
 
