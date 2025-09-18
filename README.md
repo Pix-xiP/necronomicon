@@ -373,6 +373,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   *All the other CLI tools I cannot categorise easily or don't have many competitors, yet*
 
 - [atuin](https://github.com/atuinsh/atuin) - Magical Shell History, syncs across multiple machines if you want
+- [ast-grep](https://github.com/ast-grep/ast-grep) - A CLI tool for code structured search, lint and rewrite
 - [await](https://github.com/slavaGanzin/await) - Single binary that runs list of commands in parallel and waits for their termination
 - [bear](https://github.com/rizsotto/Bear) - A tool for generating compilation database for clang tooling
 - [bitwise](https://github.com/mellowcandle/bitwise) - Terminal based bit manipulator in `ncurses`
