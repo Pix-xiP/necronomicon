@@ -173,6 +173,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [gdb](https://sourceware.org/gdb/) - The tried and true debugger for languages ranging from Ada and C to Rust and Go
 - [heretek](https://github.com/wcampbell0x2a/heretek) - GDB TUI inspired by `gef` written in Rust and works with gdbserver remotely
 - [lldb](https://lldb.llvm.org/) - The LLVM debugger, Swift, C#, and other things built atop the LLVM infrastructure
+- [ste](https://github.com/fabiensanglard/st) - Command space-time explorer, a tool to explore how command line programs work, memory usage and more
 - [valgrind](https://valgrind.org/) - A suite of tools for debugging and profiling memory
 
 ## Version Control
