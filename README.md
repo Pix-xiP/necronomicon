@@ -27,7 +27,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [Programming Languages](#programming-languages)
 - [Cool Development Libraries](#cool-development-libraries)
 - [Build Systems](#build-systems)
-- [Command Line Tools!](#command-line-tools)
+- [Command Line Tools](#command-line-tools)
   - [ls replacements](#ls-replacements)
   - [cd replacements](#cd-replacements)
   - [Linux Ng Tools - Replacements for common linux coreutils](#linux-ng-tools---replacements-for-common-linux-coreutils)
@@ -37,7 +37,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   - [CLI Data Manipulation](#cli-data-manipulation)
   - [Other CLI Tools](#other-cli-tools) - The List of Everything not in the above categories
   - [Javascript Ecosystem](#javascript-ecosystem)
-
 
 ## Colorschemes
 
@@ -124,6 +123,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [eget](https://github.com/zyedidia/eget) - Installer for pre-build binaries from Github
 - [paru](https://github.com/Morganamilo/paru) - A AUR wrapper for Arch Linux
 - [brew](https://brew.sh/) - The missing package manager for macOS written in Ruby
+- [bbrew](https://github.com/Valkyrie00/bold-brew) - A Homebrew TUI manager for package management
 - [nix](https://nixos.org/) - A purely functional package manager for Linux and other Unix systems
   - [home-manager](https://github.com/nix-community/home-manager) - A tool for managing your home-configuration, powered by Nix
 
@@ -148,13 +148,13 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
   *Terminal Emulators I've used and some quick thoughts on them*
 
-  - [ghostty](https://github.com/ghostty-org/ghostty) - An extremely fast, Linux/macOS feature-rich terminal emulator written in Zig, my current daily driver and all around good vibes for my terminal experience
-  - [kitty](https://github.com/kovidgoyal/kitty) - A fast, feature-rich, GPU based terminal emulator, has a focus on feeling snappy and contains plenty of features but had some strange defaults.
-  - [wezterm](https://github.com/wez/wezterm) - A GPU accelerated cross-platform terminal emulator, highly extensible and customizable with `lua` however it does feel like its fallen a little behind things like `kitty` and `ghostty`, however given you can extend it so far with lua it makes for a very personalised environment if you enjoy configuring.
-  - [alacritty](https://github.com/alacritty/alacritty) - Minimalist, fast emulator, it can dump text to screen fast.
-  - [foot](https://github.com/charmbracelet/foot) - Fast, lightweight and minimalist Wayland terminal emulator. Extremely good performance on Hyprland and Sway.
-  - [st](https://github.com/Shourai/st) - A simple terminal emulator you compile the config for. Extremely minimalist
-  - [iterm2](https://iterm2.com/) - The default terminal app on macOS, it's a bit of a mess but it works
+- [ghostty](https://github.com/ghostty-org/ghostty) - An extremely fast, Linux/macOS feature-rich terminal emulator written in Zig, my current daily driver and all around good vibes for my terminal experience
+- [kitty](https://github.com/kovidgoyal/kitty) - A fast, feature-rich, GPU based terminal emulator, has a focus on feeling snappy and contains plenty of features but had some strange defaults.
+- [wezterm](https://github.com/wez/wezterm) - A GPU accelerated cross-platform terminal emulator, highly extensible and customizable with `lua` however it does feel like its fallen a little behind things like `kitty` and `ghostty`, however given you can extend it so far with lua it makes for a very personalised environment if you enjoy configuring.
+- [alacritty](https://github.com/alacritty/alacritty) - Minimalist, fast emulator, it can dump text to screen fast.
+- [foot](https://github.com/charmbracelet/foot) - Fast, lightweight and minimalist Wayland terminal emulator. Extremely good performance on Hyprland and Sway.
+- [st](https://github.com/Shourai/st) - A simple terminal emulator you compile the config for. Extremely minimalist
+- [iterm2](https://iterm2.com/) - The default terminal app on macOS, it's a bit of a mess but it works
 
 ## File Swiss Army Knives
 
@@ -164,7 +164,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [ffmpeg](https://ffmpeg.org/) - A collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata, this runs basically every video processing you've ever heard of. The Swiss Army Knife of Audio
 - [sox](https://github.com/chirlu/sox) - Swiss Army Knife of sound processing
 
-## Debugging Tools 
+## Debugging Tools
 
   *Debugging tools for when its all gone to shit Kupo! I need to find more of these*
 
@@ -194,9 +194,9 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
   *AI powered tools I've found and tried*
 
-- [gemini-cli](https://github.com/google-gemini/gemini-cli) - Open source AI agent direct in your terminal, with access to everything.. 
+- [gemini-cli](https://github.com/google-gemini/gemini-cli) - Open source AI agent direct in your terminal, with access to everything..
 - [goji](https://github.com/muandane/goji) - Commitizen-like emoji commit tool written in Go with AI commit message generator
-- [smartcat](https://github.com/efugier/smartcat) - 'Putting the brain behind `cat`' integrates an LLM with cat 
+- [smartcat](https://github.com/efugier/smartcat) - 'Putting the brain behind `cat`' integrates an LLM with cat
 - [tgpt](https://github.com/aandrew-me/tgpt) - AI chatbots without needing API keys
 - [warp](https://www.warp.dev/) - This used to be a temrinal, nowadays its like some llm agent dev env
 
@@ -227,7 +227,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [swift](https://www.swift.org/) - The Apple programming language
 - [zig](https://github.com/ziglang/zig) - General purpose systems programming language
 
-## Cool Development Libraries 
+## Cool Development Libraries
 
   *Mostly focused around C or Zig, cool libraries to work with and extend your code*
 
@@ -239,7 +239,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [libuv](https://github.com/libuv/libuv) - A cross-platform asynchronous I/O library
 - [mimalloc](https://github.com/microsoft/mimalloc) - A compact general purpose allocator with excellent performance
 - [pix.h](#) - My very own header only library that brings along all sorts of useful things!
-- [stb](https://github.com/nothings/stb) - A collection of header only libraries 
+- [stb](https://github.com/nothings/stb) - A collection of header only libraries
 - [xxhash](https://github.com/Cyan4973/xxHash) - A blazingly fast non-cryptographic hash algorithm
 
 ## Build Systems
@@ -253,12 +253,11 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [remake](https://github.com/pix-xip/remake) - I make my own build system, written in `C`, configured via `lua`
 - [zig](https://ziglang.org/) - Due to its inbuilt C compiler etc, its a shocking good build system
 
-
-## Command Line Tools!
+## Command Line Tools
 
   *The giant unsorted collection of CLI tools I keep, always adding more, at some point I'll split these into proper categories..*
 
-### ls replacements 
+### ls replacements
 
   *Advanced, modern and or simple replacements for everyone's favourite idle command to run*
 
@@ -331,7 +330,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [wg](https://git.zx2c4.com/wireguard-tools/) - A toolkit for managing WireGuard
 - [zerotier-one](https://www.zerotier.com/) - A mesh networking protocol that lets you connect devices together without the hassle of setting up a VPN, it has a free tier and a self hosted!
 
-
 ### Compression Tools
 
   *Making things smol, hopefully at acceptably fast speeds*
@@ -352,7 +350,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [superfile](https://github.com/yorukot/superfile) - Pretty fancy and modern terminal file manager
 - [yazi](https://github.com/sxyazi/yazi) - Blazingly fast terminal file manager written in Rust, based on async I/O
 
-### CLI Data Manipulation 
+### CLI Data Manipulation
 
   *Easily manipulate common data formats with these tools*
 
@@ -380,6 +378,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [bitwise](https://github.com/mellowcandle/bitwise) - Terminal based bit manipulator in `ncurses`
 - [bp](https://github.com/printfn/bp) - Cross-platform clipboard tool
 - [broot](https://github.com/Canop/broot) - A file manager with a focus on speed and simplicity
+- [bt](https://github.com/LeperGnome/bt) - An interactive tree-line terminal file manager written in Go
 - [cheat.sh](https://github.com/chubin/cheat.sh) - Endless quick cheat sheets for various topics!
 - [circumflex](https://github.com/bensadeh/circumflex) - Hacker News in your terminal
 - [clipboard](https://github.com/Slackadays/Clipboard) - Ridonkuliciously smart clipboard manager
@@ -425,6 +424,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [pillager](https://github.com/brittonhayes/pillager) - Pillage filesystems for sensitive information with Go
 - [pingme](https://github.com/kha7iq/pingme) - CLI utility which provides the ability to send messages or alerts to multiple messaging platforms & email
 - [pueue](https://github.com/Nukesor/pueue) - Manage shell commands in the background and execute them whenever
+- [pssh](https://github.com/pix-xip/pssh) - TUI wrapper for `ssh` with a searchable menu for your SSH Config
 - [ran](https://github.com/m3ng9i/ran) - Simple static web server written in Go
 - [rclone](https://github.com/rclone/rclone) - `rsync` for cloud storage
 - [rga](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
@@ -447,8 +447,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Feature rich command line audio/video downloader
 - [zeit](https://github.com/mrusme/zeit) - Zeit, Erfassen, A command line tool for tracking time spent on activities
 
-
-### Javascript Ecosystem 
+### Javascript Ecosystem
 
   *Javascript go brrrrr*
 
