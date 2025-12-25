@@ -208,6 +208,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [manticore](https://github.com/manticoresearch/manticore) - A fast, in-memory, vector search engine with SQL-like query syntax
 - [sqlite](https://www.sqlite.org/index.html) - Everyone's favourite flat file database works with everything
 - [surealdb](https://github.com/surrealdb/surrealdb) - Scalable, distributed, collaborative document-graph database
+- [sqlit](https://github.com/Maxteabag/sqlit) - TUI for SQL databases written in Python
 
 ## Programming Languages
 
