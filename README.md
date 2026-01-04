@@ -40,6 +40,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [Javascript Ecosystem](#javascript-ecosystem)
 - [Cloud Tooling](#cloud-tooling)
 - [IRC](#irc)
+- [Logging](#logging)
 
 ## Colorschemes
 
