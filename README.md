@@ -27,6 +27,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [Programming Languages](#programming-languages)
 - [Cool Development Libraries](#cool-development-libraries)
 - [Build Systems](#build-systems)
+- [Generic Productivity Tools](#generic-productivity-tools)
 - [Command Line Tools](#command-line-tools)
   - [ls replacements](#ls-replacements)
   - [cd replacements](#cd-replacements)
@@ -36,7 +37,9 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   - [Terminal File Managers](#terminal-file-managers)
   - [CLI Data Manipulation](#cli-data-manipulation)
   - [Other CLI Tools](#other-cli-tools) - The List of Everything not in the above categories
-  - [Javascript Ecosystem](#javascript-ecosystem)
+- [Javascript Ecosystem](#javascript-ecosystem)
+- [Cloud Tooling](#cloud-tooling)
+- [IRC](#irc)
 
 ## Colorschemes
 
@@ -131,6 +134,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
   *Helpful tools for rendering Markdown in the termial*
 
+- [dawn](https://github.com/andrewmd5/dawn) - An in terminal lighweight document drafter that renders markdown directly
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz
 - [mdcat](https://github.com/lunaryorn/mdcat) - cat for Markdown
 - [mdtt](https://github.com/szktkfm/mdtt) - Markdown table editor TUI
@@ -180,14 +184,15 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
   *Do you like saving your work? Reverting your changes? Keeping a history?!*
 
-- [Git Kraken](https://www.gitkraken.com/) - An alternative for `sublime merge` that works well on Windows
+- [dotstate](https://github.com/serkanyersen/dotstate) - A modern, secure and user-friendly dotfile manager
 - [gh](https://cli.github.com/) - Github CLI, makes dealing with git repos on github braindead
+- [git kraken](https://www.gitkraken.com/) - An alternative for `sublime merge` that works well on Windows
 - [git-delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for `git`
 - [gitui](https://github.com/gitui-org/gitui) - Fast terminal-ui for git written in Rust, a less pretty `lazygit`
 - [icdiff](https://github.com/jeffkaufman/icdiff) - An improved coloured version of `diff` written in Python
 - [jujutsu](https://github.com/jj-vcs/jj) - A git compatible VCS written in Rust with a new way of handling version control
 - [lazygit](https://github.com/jesseduffield/lazygit) - A fantastic TUI for git written in Go
-- [Sublime Merge](https://www.sublimemerge.com/) - A fantastic, easy to parse git GUI for Sublime Text
+- [sublime merge](https://www.sublimemerge.com/) - A fantastic, easy to parse git GUI for Sublime Text
 - [svn](https://subversion.apache.org/) - Mercurial based VCS
 
 ## AI Backed Tooling
@@ -205,14 +210,15 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   *Basic database tools and databases, honestly I suck at db's*
 
 - [gobang](https://github.com/TaKO8Ki/gobang) - A cross-platform TUI database management tool written in Rust
+- [lazysql](https://github.com/jorgerojas26/lazysql) - A cross-platform TUI database management tool written in Go
 - [manticore](https://github.com/manticoresearch/manticore) - A fast, in-memory, vector search engine with SQL-like query syntax
+- [sqlit](https://github.com/Maxteabag/sqlit) - TUI for SQL databases written in Python
 - [sqlite](https://www.sqlite.org/index.html) - Everyone's favourite flat file database works with everything
 - [surealdb](https://github.com/surrealdb/surrealdb) - Scalable, distributed, collaborative document-graph database
-- [sqlit](https://github.com/Maxteabag/sqlit) - TUI for SQL databases written in Python
 
 ## Programming Languages
 
-  *Various programming languages I've worked in*
+  *Various programming languages to work in*
 
 - [bash](#) - Default shell scripting language almost everywhere
 - [c#](https://dotnet.microsoft.com/en-us/languages/csharp) - The Microsoft programming language
@@ -225,6 +231,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [odin](https://github.com/odin-lang/Odin) - The C alternative for the joy of programming
 - [perl](https://www.perl.org/) - Golf the heck out of your code
 - [python](https://www.python.org/) - A general purpose scripting language
+- [ruby](https://www.ruby-lang.org/) - The language of the internet (Rails)
 - [swift](https://www.swift.org/) - The Apple programming language
 - [zig](https://github.com/ziglang/zig) - General purpose systems programming language
 
@@ -254,6 +261,12 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [remake](https://github.com/pix-xip/remake) - I make my own build system, written in `C`, configured via `lua`
 - [zig](https://ziglang.org/) - Due to its inbuilt C compiler etc, its a shocking good build system
 
+## Generic Productivity Tools
+
+ *Tooling to hopefully make you a more productive person*
+
+- [pomo](https://github.com/Bahaaio/pomo) - Customisable TUI pomodoro timer with fun ascii art and notifications
+
 ## Command Line Tools
 
   *The giant unsorted collection of CLI tools I keep, always adding more, at some point I'll split these into proper categories..*
@@ -267,6 +280,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [lla](https://github.com/chaqchase/lla) - Blazingly fast `ls` replacement with 'superpowers'
 - [lsd](https://github.com/lsd-rs/lsd) - Another rust rewrite of `ls`
 - [natls](https://github.com/willdoescode/nat) - `ls` alternative with useful info and a splash of colour
+- [pls](https://github.com/pls-rs/pls) - A prettier and powerful `ls` replacement
 
 ### cd replacements
 
@@ -355,7 +369,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
   *Easily manipulate common data formats with these tools*
 
-- [angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
 - [dasel](https://github.com/TomWright/dasel) - Select, Put, Delete data from JSON, TOML, YAML, XML and CSV files with a single tool
 - [fastmod](https://github.com/facebookincubator/fastmod) - A fast batch file editor find and replace
 - [jless](https://github.com/PaulJuliusMartinez/jless) - JSON viewer designed for reading, exploring and searching through JSON data
@@ -406,9 +419,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
 - [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to Manage your clusters in style
 - [keyb](https://github.com/kencx/keyb) - Create and view custom hotkey cheatsheets in the terminal
-- [lazyjournal](https://github.com/Lifailon/lazyjournal) - A TUI for reading journald, auditd, file system and more logs with coloured output, filtering and timestamping
 - [lemmeknow](https://github.com/swanandx/lemmeknow) - The fastest way to identify anything looking at strings
-- [lnav](https://github.com/tstack/lnav) - Logfile navigator in C++
 - [mprocs](https://github.com/pvolok/mprocs) - Run multiple commands in parallel
 - [mutt](https://github.com/muttmua/mutt) - An email client for your terminal
 - [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
@@ -435,7 +446,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [sig](https://github.com/ynqa/sig) - Interactive grep for streamed data
 - [skim](https://github.com/skim-rs/skim) - Fuzzy Finder written in Rust
 - [sshs](https://github.com/quantumsheep/sshs) - TUI interface for SSH and SSH Config Connections
-- [tailspin](https://github.com/bensadeh/tailspin) - Log file highlighter
 - [task](https://github.com/go-task/task) - A task runner / build tool written in Go, aims to be simpler then `make`
 - [tealdeer](https://github.com/tealdeer-rs/tealdeer) - A rust implementation of `tldr`
 - [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands
@@ -448,7 +458,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Feature rich command line audio/video downloader
 - [zeit](https://github.com/mrusme/zeit) - Zeit, Erfassen, A command line tool for tracking time spent on activities
 
-### Javascript Ecosystem
+## Javascript Ecosystem
 
   *Javascript go brrrrr*
 
@@ -458,3 +468,25 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [npm](https://github.com/npm) - The classic package manager for JavaScript
 - [pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager
 - [yarn](https://github.com/yarnpkg) - Fast ,reliable, and secure dependency management for JavaScript
+
+## Cloud Tooling
+
+ *When you think about it, its just someone else's computer, waaaaay over there..*
+
+- [claws](https://github.com/clawscli/claws) - A TUI for AWS resource management feat vim-style navigation
+
+## IRC
+
+ *A simpler time then chat was just.. chat*
+
+- [zuse](https://github.com/babycommando/zuse) - Clean IRC TUI written using bubbletea in Go
+
+## Logging
+
+ *Good logging is something of lifesaver, visualisation and parsing makes it even better*
+
+- [angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
+- [hl](https://github.com/pamburus/hl) - Fast and powerful log viewer, capable of processing JSON and logfmt logs
+- [lazyjournal](https://github.com/Lifailon/lazyjournal) - A TUI for reading journald, auditd, file system and more logs with coloured output, filtering and timestamping
+- [lnav](https://github.com/tstack/lnav) - Logfile navigator in C++
+- [tailspin](https://github.com/bensadeh/tailspin) - Log file highlighter
