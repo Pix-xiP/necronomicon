@@ -331,6 +331,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [httpie](https://github.com/httpie/cli) - user-friendly, command-line HTTP client for the API era, JSON support, colours, sessions, downloads, plugins and move
 - [iproute2mac](https://github.com/brona/iproute2mac) - CLI wrapper for basic network utilities on MacOS
 - [netcat](https://netcat.sourceforge.net/) - The network swiss army knife
+- [oryx](https://github.com/pythops/oryx) - TUI for sniffing network traffic via eBPF
 - [rustscan](https://github.com/bee-san/RustScan) - A 'modern' port scanner replacement for `nmap`
 - [sntop](https://sntop.sourceforge.net/) - A simple network top
 - [socat](https://www.dest-unreach.org/socat/) - Another swiss army knife for networking!
