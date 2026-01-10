@@ -331,6 +331,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [havn](https://github.com/mrjackwills/havn) - A configurable port scanner with decent default options
 - [httpie](https://github.com/httpie/cli) - user-friendly, command-line HTTP client for the API era, JSON support, colours, sessions, downloads, plugins and move
 - [iproute2mac](https://github.com/brona/iproute2mac) - CLI wrapper for basic network utilities on MacOS
+- [impala](https://github.com/pythops/impala) - TUI for managing WiFi on Linux
 - [netcat](https://netcat.sourceforge.net/) - The network swiss army knife
 - [oryx](https://github.com/pythops/oryx) - TUI for sniffing network traffic via eBPF
 - [rustscan](https://github.com/bee-san/RustScan) - A 'modern' port scanner replacement for `nmap`
