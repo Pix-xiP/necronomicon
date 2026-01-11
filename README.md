@@ -246,6 +246,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [libconfig](https://github.com/hyperrealm/libconfig) - A cross-platform library for parsing structured configuration files
 - [libevent](https://github.com/libevent/libevent) - A cross-platform event notification library
 - [libuv](https://github.com/libuv/libuv) - A cross-platform asynchronous I/O library
+- [quickshell](https://quickshell.org/) - Flexible toolkit for making desktop shells using QtQuick.
 - [mimalloc](https://github.com/microsoft/mimalloc) - A compact general purpose allocator with excellent performance
 - [pix.h](#) - My very own header only library that brings along all sorts of useful things!
 - [stb](https://github.com/nothings/stb) - A collection of header only libraries
