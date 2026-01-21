@@ -36,11 +36,13 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   - [Compression Tools](#compression-tools)
   - [Terminal File Managers](#terminal-file-managers)
   - [CLI Data Manipulation](#cli-data-manipulation)
+    - [Colours and Styling](#colours-and-styling)
   - [Other CLI Tools](#other-cli-tools) - The List of Everything not in the above categories
 - [Javascript Ecosystem](#javascript-ecosystem)
 - [Cloud Tooling](#cloud-tooling)
 - [IRC](#irc)
 - [Logging](#logging)
+- [Backup Tooling](#backend-tooling)
 
 ## Colorschemes
 
@@ -386,6 +388,14 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [sttr](https://github.com/abhimanyu003/sttr) - Cross-platform tool to perform various operations on strings
 - [yq](https://github.com/mikefarah/yq) - Portable command-line YAML and more properties processor
 
+### Colours and Styling
+
+*Making your terminal look gorgeous*
+
+- [chalk-cli](https://github.com/chalk/chalk-cli) - A terminal string styling library in JavaScript
+- [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts, includes plenty of quality of life features for scripting
+- [pastel](https://github.com/sharkdp/pastel) - A command-line tool to generate, analyze, convert and manipulate colors
+
 ### Other CLI Tools
 
   *All the other CLI tools I cannot categorise easily or don't have many competitors, yet*
@@ -403,6 +413,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [clipboard](https://github.com/Slackadays/Clipboard) - Ridonkuliciously smart clipboard manager
 - [cod](https://github.com/dim-an/cod) - Auto-Completion daemon for `bash`/`fish`/`zsh`
 - [cotp](https://github.com/replydev/cotp) - Terminal tool for managing OTP's
+- [chalk-cli](https://github.com/chalk/chalk-cli) - A terminal string styling library in JavaScript
 - [croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another
 - [ctop](https://github.com/bcicen/ctop) - `top`-like interface for container metrics
 - [dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves
@@ -418,7 +429,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [gdu](https://github.com/dundee/gdu) - Pretty fast disk usage analyser with TUI written in Go
 - [ghq](https://github.com/x-motemen/ghq) - Remote repository management made easy
 - [gperf](https://github.com/yakaz/gperf) - A perfect hash function generator
-- [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts, includes plenty of quality of life features for scripting
 - [hostctl](https://github.com/guumaster/hostctl) - Your dev tool to manage `/etc/hosts` like a pro
 - [hunspell](https://github.com/hunspell/hunspell) - The most popular spellchecking library
 - [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
@@ -435,7 +445,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [nvrs](https://github.com/adamperkowski/nvrs) - New version checker for software releases
 - [onefetch](https://github.com/o2sh/onefetch) - Git repository summary on your terminal, similar to `neofetch`/`fastfetch` but for `git`
 - [oom](https://github.com/dhth/omm) - Keyboard-driven task manager/todo list for command-line
-- [pastel](https://github.com/sharkdp/pastel) - A command-line tool to generate, analyze, convert and manipulate colors
 - [pdu](https://github.com/KSXGitHub/parallel-disk-usage) - Highly parallelised fast directory tree analyser
 - [pgtree](https://github.com/joknarf/pgtree) - Unix process hierachy tree for specific processes
 - [pillager](https://github.com/brittonhayes/pillager) - Pillage filesystems for sensitive information with Go
@@ -495,3 +504,9 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [lazyjournal](https://github.com/Lifailon/lazyjournal) - A TUI for reading journald, auditd, file system and more logs with coloured output, filtering and timestamping
 - [lnav](https://github.com/tstack/lnav) - Logfile navigator in C++
 - [tailspin](https://github.com/bensadeh/tailspin) - Log file highlighter
+
+## Backup Tooling
+
+ *Slightly more effective then my_file_working_real_3_actual_working_fr.txt.doc*
+
+- [restic](https://github.com/restic/restic) - Fast, secure, efficient backup program, making backups easy
