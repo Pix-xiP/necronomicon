@@ -454,7 +454,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [pssh](https://github.com/pix-xip/pssh) - TUI wrapper for `ssh` with a searchable menu for your SSH Config
 - [ran](https://github.com/m3ng9i/ran) - Simple static web server written in Go
 - [rclone](https://github.com/rclone/rclone) - `rsync` for cloud storage
-- [rga](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
 - [rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder) - Generate impressive looking terminal output to look busy when the stakeholders are walking around for inspection
 - [scc](https://github.com/boyter/scc) - Count your lines of code accurately and quickly
 - [shellcheck](https://github.com/koalaman/shellcheck) - Static analysis tool for shell scripts
