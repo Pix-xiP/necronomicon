@@ -270,6 +270,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
  *Tooling to hopefully make you a more productive person*
 
 - [pomo](https://github.com/Bahaaio/pomo) - Customisable TUI pomodoro timer with fun ascii art and notifications
+- [taskwarrior](https://taskwarrior.org/) - A command line todo list manager
 
 ## Command Line Tools
 
