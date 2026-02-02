@@ -469,6 +469,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [tran](https://github.com/abdfnx/tran) - Securely transfer and send anything between computers with a TUI
 - [typocia](https://github.com/bloznelis/typioca) - Cozy typing speed tester for terminals
 - [ugm](https://github.com/ariasmn/ugm) - Terminal based UNIX user and group browser
+- [weave](https://github.com/pix-xip/weave) - An orchestration tool, Lua describes intent, Go guarantees execution
 - [xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
 - [you-get](https://github.com/soimort/you-get) - Dumb downloader that scrapes the web
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Feature rich command line audio/video downloader
