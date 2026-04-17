@@ -439,6 +439,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [lemmeknow](https://github.com/swanandx/lemmeknow) - The fastest way to identify anything looking at strings
 - [mprocs](https://github.com/pvolok/mprocs) - Run multiple commands in parallel
 - [mutt](https://github.com/muttmua/mutt) - An email client for your terminal
+- [mise] - A mixture of `asdf`, `direnv`, `make` and `task`, for language, dev-tools, task runners and more in one
 - [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
 - [nemu](https://github.com/nemuTUI/nemu) - NCurses based UI for QEMU
 - [neofetch](https://github.com/dylanaraps/neofetch) - A command line system information tool written in bash
