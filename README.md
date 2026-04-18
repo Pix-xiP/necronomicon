@@ -338,6 +338,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [iproute2mac](https://github.com/brona/iproute2mac) - CLI wrapper for basic network utilities on MacOS
 - [impala](https://github.com/pythops/impala) - TUI for managing WiFi on Linux
 - [netcat](https://netcat.sourceforge.net/) - The network swiss army knife
+- [netwatch](https://github.com/matthart1983/netwatch) - Realtime network monitoring/diagnostics in your terminal!
 - [oryx](https://github.com/pythops/oryx) - TUI for sniffing network traffic via eBPF
 - [rustscan](https://github.com/bee-san/RustScan) - A 'modern' port scanner replacement for `nmap`
 - [sntop](https://sntop.sourceforge.net/) - A simple network top
