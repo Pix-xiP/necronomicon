@@ -384,6 +384,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [jq](https://github.com/jqlang/jq) - Command line JSON processor in C
 - [jqp](https://github.com/noahgorstein/jqp) - A TUI playground to experiment with `jq`
 - [jqp](https://github.com/noahgorstein/jqp) - TUI playground to use with `jq`
+- [lazyenv](https://github.com/lazynop/lazyenv) - A TUI for managing .env files
 - [miller](https://github.com/johnkerl/miller) - Miller is like `awk`, `sed`, `cut`, `join` and `sort` for name-indexed data such as CSV, TSV, and tabular JSON
 - [sad](https://github.com/ms-jpq/sad) - CLI batch search and replace
 - [sttr](https://github.com/abhimanyu003/sttr) - Cross-platform tool to perform various operations on strings
@@ -439,7 +440,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [lemmeknow](https://github.com/swanandx/lemmeknow) - The fastest way to identify anything looking at strings
 - [mprocs](https://github.com/pvolok/mprocs) - Run multiple commands in parallel
 - [mutt](https://github.com/muttmua/mutt) - An email client for your terminal
-- [mise] - A mixture of `asdf`, `direnv`, `make` and `task`, for language, dev-tools, task runners and more in one
+- [mise](https://github.com/jdx/mise) - A mixture of `asdf`, `direnv`, `make` and `task`, for language, dev-tools, task runners and more in one
 - [navi](https://github.com/denisidoro/navi) - An interactive cheatsheet tool for the command-line
 - [nemu](https://github.com/nemuTUI/nemu) - NCurses based UI for QEMU
 - [neofetch](https://github.com/dylanaraps/neofetch) - A command line system information tool written in bash
