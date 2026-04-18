@@ -420,6 +420,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another
 - [ctop](https://github.com/bcicen/ctop) - `top`-like interface for container metrics
 - [dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves
+- [deadbranch](https://github.com/armgabrielyan/deadbranch) - Clean up stale git branches safely
 - [diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator
 - [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
 - [dos2unix](https://github.com/TizenTeam/dos2unix) - Remove the extras from dos files to be compatible with unix
