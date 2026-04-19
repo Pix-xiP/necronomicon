@@ -446,6 +446,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [hostctl](https://github.com/guumaster/hostctl) - Your dev tool to manage `/etc/hosts` like a pro
 - [hunspell](https://github.com/hunspell/hunspell) - The most popular spellchecking library
 - [hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+- [hyprmoncfg](https://github.com/crmne/hyprmoncfg) - Terminal monitor configuration tool for Hyprland
 - [just](https://github.com/casey/just) - A command runner written in rust, to be an improvement on make
 - [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to Manage your clusters in style
 - [keyb](https://github.com/kencx/keyb) - Create and view custom hotkey cheatsheets in the terminal
