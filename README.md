@@ -187,11 +187,13 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
   *Do you like saving your work? Reverting your changes? Keeping a history?!*
 
+- [deadbranch](https://github.com/armgabrielyan/deadbranch) - Clean up stale git branches safely
 - [dotstate](https://github.com/serkanyersen/dotstate) - A modern, secure and user-friendly dotfile manager
 - [gh](https://cli.github.com/) - Github CLI, makes dealing with git repos on github braindead
 - [git kraken](https://www.gitkraken.com/) - An alternative for `sublime merge` that works well on Windows
 - [git-delta](https://github.com/dandavison/delta) - A syntax-highlighting pager for `git`
 - [gitui](https://github.com/gitui-org/gitui) - Fast terminal-ui for git written in Rust, a less pretty `lazygit`
+- [gitsocial](https://github.com/gitsocial-org/gitsocial) - Social layer for git repositories
 - [icdiff](https://github.com/jeffkaufman/icdiff) - An improved coloured version of `diff` written in Python
 - [jujutsu](https://github.com/jj-vcs/jj) - A git compatible VCS written in Rust with a new way of handling version control
 - [lazygit](https://github.com/jesseduffield/lazygit) - A fantastic TUI for git written in Go
