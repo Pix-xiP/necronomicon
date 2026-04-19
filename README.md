@@ -469,12 +469,13 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [pueue](https://github.com/Nukesor/pueue) - Manage shell commands in the background and execute them whenever
 - [ran](https://github.com/m3ng9i/ran) - Simple static web server written in Go
 - [rclone](https://github.com/rclone/rclone) - `rsync` for cloud storage
-- [](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
 - [rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder) - Generate impressive looking terminal output to look busy when the stakeholders are walking around for inspection
 - [scc](https://github.com/boyter/scc) - Count your lines of code accurately and quickly
 - [shellcheck](https://github.com/koalaman/shellcheck) - Static analysis tool for shell scripts
 - [sig](https://github.com/ynqa/sig) - Interactive grep for streamed data
 - [skim](https://github.com/skim-rs/skim) - Fuzzy Finder written in Rust
+- [strace-tui](https://github.com/Rodrigodd/strace-tui) - A TUI for visualising and exploring `strace` output
 - [task](https://github.com/go-task/task) - A task runner / build tool written in Go, aims to be simpler then `make`
 - [tealdeer](https://github.com/tealdeer-rs/tealdeer) - A rust implementation of `tldr`
 - [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands
