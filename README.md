@@ -37,6 +37,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   - [Terminal File Managers](#terminal-file-managers)
   - [CLI Data Manipulation](#cli-data-manipulation)
     - [Colours and Styling](#colours-and-styling)
+  - [SSH related tooling](#ssh-related-tooling)
   - [Other CLI Tools](#other-cli-tools) - The List of Everything not in the above categories
 - [Javascript Ecosystem](#javascript-ecosystem)
 - [Cloud Tooling](#cloud-tooling)
@@ -345,7 +346,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [rustscan](https://github.com/bee-san/RustScan) - A 'modern' port scanner replacement for `nmap`
 - [sntop](https://sntop.sourceforge.net/) - A simple network top
 - [socat](https://www.dest-unreach.org/socat/) - Another swiss army knife for networking!
-- [ssh-para](https://github.com/joknarf/ssh-para) - Parallel ssh jobs manager with interactive CLI
 - [stu](https://github.com/lusingander/stu) - A TUI explorer for Amazon S3 buckets
 - [tcpdump](https://www.tcpdump.org/) - A way to dump network traffic straight off the interface
 - [tcpterm](https://github.com/sachaos/tcpterm) - A TCPDump visualiser
@@ -401,6 +401,15 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts, includes plenty of quality of life features for scripting
 - [pastel](https://github.com/sharkdp/pastel) - A command-line tool to generate, analyze, convert and manipulate colors
 
+### SSH related tooling
+
+*Tooling for the secure shell and related protocol*
+
+- [pssh](https://github.com/pix-xip/pssh) - TUI wrapper for `ssh` with a searchable menu for your SSH Config
+- [purple](https://github.com/erickochen/purple) - SSH Manager and Config editor
+- [sshs](https://github.com/quantumsheep/sshs) - TUI interface for SSH and SSH Config Connections
+- [ssh-para](https://github.com/joknarf/ssh-para) - Parallel ssh jobs manager with interactive CLI
+
 ### Other CLI Tools
 
   *All the other CLI tools I cannot categorise easily or don't have many competitors, yet*
@@ -422,7 +431,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another
 - [ctop](https://github.com/bcicen/ctop) - `top`-like interface for container metrics
 - [dblab](https://github.com/danvergara/dblab) - The database client every command line junkie deserves
-- [deadbranch](https://github.com/armgabrielyan/deadbranch) - Clean up stale git branches safely
 - [diskonaut](https://github.com/imsnif/diskonaut) - Terminal disk space navigator
 - [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
 - [dos2unix](https://github.com/TizenTeam/dos2unix) - Remove the extras from dos files to be compatible with unix
@@ -458,7 +466,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [pillager](https://github.com/brittonhayes/pillager) - Pillage filesystems for sensitive information with Go
 - [pingme](https://github.com/kha7iq/pingme) - CLI utility which provides the ability to send messages or alerts to multiple messaging platforms & email
 - [pueue](https://github.com/Nukesor/pueue) - Manage shell commands in the background and execute them whenever
-- [pssh](https://github.com/pix-xip/pssh) - TUI wrapper for `ssh` with a searchable menu for your SSH Config
 - [ran](https://github.com/m3ng9i/ran) - Simple static web server written in Go
 - [rclone](https://github.com/rclone/rclone) - `rsync` for cloud storage
 - [](https://github.com/phiresky/ripgrep-all) - `ripgrep` for everything, PDF's, E-Books, Office Docs, Zips, etc
@@ -467,7 +474,6 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [shellcheck](https://github.com/koalaman/shellcheck) - Static analysis tool for shell scripts
 - [sig](https://github.com/ynqa/sig) - Interactive grep for streamed data
 - [skim](https://github.com/skim-rs/skim) - Fuzzy Finder written in Rust
-- [sshs](https://github.com/quantumsheep/sshs) - TUI interface for SSH and SSH Config Connections
 - [task](https://github.com/go-task/task) - A task runner / build tool written in Go, aims to be simpler then `make`
 - [tealdeer](https://github.com/tealdeer-rs/tealdeer) - A rust implementation of `tldr`
 - [tldr](https://github.com/tldr-pages/tldr) - Collaborative cheatsheets for console commands
