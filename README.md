@@ -307,6 +307,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [bat](https://github.com/sharkdp/bat) - A `cat` clone with wings
 - [bottom](https://github.com/ClementTsang/bottom) - A cross-platform graphical process/system monitor in Rust
 - [btop](https://github.com/aristocratos/btop) - A pretty monitor of resources, alternative to `top`
+- [carapace](https://github.com/carapace-sh/carapace) - Shell tab completion on crack, for multiple shells
 - [choose](https://github.com/theryangeary/choose) - A human-friendly and fast alternative to `cut` and some `awk` commands
 - [cyme](https://github.com/tuna-f1sh/cyme) - Cross-platform replacement for `lsusb`
 - [dua](https://github.com/Byron/dua-cli) - A more intuitive version of `du`
