@@ -304,6 +304,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   *Modern replacements for the tried and true*
 
 - [atop](https://github.com/Atoptool/atop) - System and process monitoring for Linux, alternative to `top`
+- [amoxide](https://amoxide.rs/) - Like `direnv` but for aliases.
 - [bat](https://github.com/sharkdp/bat) - A `cat` clone with wings
 - [bottom](https://github.com/ClementTsang/bottom) - A cross-platform graphical process/system monitor in Rust
 - [btop](https://github.com/aristocratos/btop) - A pretty monitor of resources, alternative to `top`
