@@ -274,6 +274,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
 - [pomo](https://github.com/Bahaaio/pomo) - Customisable TUI pomodoro timer with fun ascii art and notifications
 - [taskwarrior](https://taskwarrior.org/) - A command line todo list manager
+- [arttime](https://github.com/poetaman/arttime) - The beauty of ASCII art, combined with the functionality of a clock/timer/time manager
 
 ## Command Line Tools
 
