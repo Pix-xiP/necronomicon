@@ -39,6 +39,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
     - [Colours and Styling](#colours-and-styling)
   - [SSH related tooling](#ssh-related-tooling)
   - [Other CLI Tools](#other-cli-tools) - The List of Everything not in the above categories
+- [Development Tooling](#development-tooling)
 - [Javascript Ecosystem](#javascript-ecosystem)
 - [Cloud Tooling](#cloud-tooling)
 - [IRC](#irc)
@@ -265,7 +266,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [make](https://www.gnu.org/software/make/) - Precusor to cmake! Still in use today cause it works!
 - [meson](https://mesonbuild.com/) - A build system using ninja as a backend with a python like syntax
 - [ninja](https://ninja-build.org/) - Build system with a focus on speed and parallelism
-- [remake](https://github.com/pix-xip/remake) - I make my own build system, written in `C`, configured via `lua`
+- [remake](https://github.com/pix-xip/remake) - Replacement for `make` configured via `lua`
 - [zig](https://ziglang.org/) - Due to its inbuilt C compiler etc, its a shocking good build system
 
 ## Generic Productivity Tools
@@ -491,6 +492,10 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [you-get](https://github.com/soimort/you-get) - Dumb downloader that scrapes the web
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - Feature rich command line audio/video downloader
 - [zeit](https://github.com/mrusme/zeit) - Zeit, Erfassen, A command line tool for tracking time spent on activities
+
+## Development Tooling
+
+- `algernon` - Small, self-contained WebServer with all sorts of support.
 
 ## Javascript Ecosystem
 
