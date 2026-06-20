@@ -45,6 +45,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [IRC](#irc)
 - [Logging](#logging)
 - [Backup Tooling](#backend-tooling)
+- [Web Server Platforms](#web-server-platforms)
 
 ## Colorschemes
 
@@ -495,7 +496,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 
 ## Development Tooling
 
-- `algernon` - Small, self-contained WebServer with all sorts of support.
+- [algernon](https://github.com/xyproto/algernon) - Small, self-contained WebServer with all sorts of support.
 
 ## Javascript Ecosystem
 
@@ -535,3 +536,10 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
  *Slightly more effective then my_file_working_real_3_actual_working_fr.txt.doc*
 
 - [restic](https://github.com/restic/restic) - Fast, secure, efficient backup program, making backups easy
+
+## Web Server Platforms
+
+ *Webservers, proxies, reverse proxies, load balancers, etc!
+
+- [nginx](https://nginx.org/) - Webserver, reverse proxy, mail server and more, battle tested, written in C
+- [caddy](https://github.com/caddyserver/caddy) - Fast, extensible multi-platform webserver with automatic HTTPS
