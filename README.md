@@ -135,6 +135,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [bbrew](https://github.com/Valkyrie00/bold-brew) - A Homebrew TUI manager for package management
 - [nix](https://nixos.org/) - A purely functional package manager for Linux and other Unix systems
   - [home-manager](https://github.com/nix-community/home-manager) - A tool for managing your home-configuration, powered by Nix
+- [zerobrew](https://github.com/lucasgelfond/zerobrew) - Experimental alternative to homebrew, written in Rust
 
 ## Markdown Tools
 
