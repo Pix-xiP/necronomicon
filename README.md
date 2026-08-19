@@ -342,6 +342,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [curlie](https://github.com/rs/curlie) - The power of curl, the ease of `httpie`
 - [dog](https://github.com/ogham/dog) - A command-line DNS client
 - [doggo](https://github.com/mr-karan/doggo) - A modern DNS client like `dig` written in Go
+- [dstp](https://github.com/ycd/dstp) - Go tool for running common networking tests against sites
 - [got](https://github.com/melbahja/got) - Go tool to download large files faster then `curl` and `wget`
 - [havn](https://github.com/mrjackwills/havn) - A configurable port scanner with decent default options
 - [httpie](https://github.com/httpie/cli) - user-friendly, command-line HTTP client for the API era, JSON support, colours, sessions, downloads, plugins and move
