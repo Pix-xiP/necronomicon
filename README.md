@@ -336,6 +336,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 ### Encryption Tools
 
 - [age](https://github.com/filosottile/age) - A simple, modern and secure encryption tool in Go.
+- [eddy](https://github.com/70sh1/eddy) - A simple and fast CLI file encryption tool.
 
 ### CLI Network Tools
 
