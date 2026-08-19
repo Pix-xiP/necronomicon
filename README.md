@@ -319,6 +319,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [dua](https://github.com/Byron/dua-cli) - A more intuitive version of `du`
 - [duf](https://github.com/muesli/duf) - An intuitive visual replacement for `df`
 - [dust](https://github.com/bootandy/dust) - A more intuitive version of `du` with a nice visual output
+- [dysk](https://github.com/canop/dysk) - A modern linux utility take on `df` written in Rust for geting information on filesystems
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to `find`
 - [glances](https://github.com/nicolargo/glances) - A `top`/`htop` alternative written in Python
 - [hevi](https://github.com/Arnau478/hevi) - A hex viewer and alternative to `xxd`
