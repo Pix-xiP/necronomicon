@@ -32,6 +32,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
   - [ls replacements](#ls-replacements)
   - [cd replacements](#cd-replacements)
   - [Linux Ng Tools - Replacements for common linux coreutils](#linux-ng-tools---replacements-for-common-linux-coreutils)
+  - [Encryption Tools](#encryption-tools)
   - [CLI Network Tools](#cli-network-tools)
   - [Compression Tools](#compression-tools)
   - [Terminal File Managers](#terminal-file-managers)
@@ -331,6 +332,10 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [ripgrep](https://github.com/BurntSushi/ripgrep) - A search tool like `grep` but faster
 - [rsync](https://github.com/RsyncProject/rsync) - An open source utility for fast incremental file transfer, potential replacement for `cp` and `scp`
 - [sd](https://github.com/chmln/sd) - Intuitive find & replace CLI, replacement for `sed`
+
+### Encryption Tools
+
+- [age](https://github.com/filosottile/age) - A simple, modern and secure encryption tool in Go.
 
 ### CLI Network Tools
 
