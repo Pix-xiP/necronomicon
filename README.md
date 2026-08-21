@@ -24,6 +24,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [Version Control](#version-control)
 - [AI Backed Tooling](#ai-backed-tooling)
 - [Database Tooling](#database-tooling)
+- [Cyber Security](#cyber-security)
 - [Programming Languages](#programming-languages)
 - [Cool Development Libraries](#cool-development-libraries)
 - [Build Systems](#build-systems)
@@ -225,6 +226,13 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [sqlit](https://github.com/Maxteabag/sqlit) - TUI for SQL databases written in Python
 - [sqlite](https://www.sqlite.org/index.html) - Everyone's favourite flat file database works with everything
 - [surealdb](https://github.com/surrealdb/surrealdb) - Scalable, distributed, collaborative document-graph database
+
+## Cyber Security
+
+ *Tools for keeping your computer safe.. or for making someone else's unsafe*
+
+- [angryoxide](https://github.com/Ragnt/AngryOxide) - 802.11 Attack Tool
+- [ffuf](https://github.com/ffuf/ffuf) - Fast w eb fuzzer written in Go
 
 ## Programming Languages
 
