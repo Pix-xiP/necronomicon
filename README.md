@@ -454,6 +454,7 @@ Please send me cool tools to try! I'm always looking for more new awesome stuff 
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) - The up to date system info tool, written with performance in mind like `neofetch`
 - [fjira](https://github.com/mk-5/fjira) - The golang fuzzy-find cli jira interface
 - [flex](https://github.com/westes/flex) - Fast Lexical Analyser, scanner generator for lexing in C && C++
+- [flyline](https://github.com/HalFrgrd/flyline) - Bash plugin to replace readline, adding prompts, syntax, autocomp, search etc.
 - [fzy](https://github.com/jhawthorn/fzy) - Simple, fast fuzzy finder for the terminal
 - [gdu](https://github.com/dundee/gdu) - Pretty fast disk usage analyser with TUI written in Go
 - [ghq](https://github.com/x-motemen/ghq) - Remote repository management made easy
